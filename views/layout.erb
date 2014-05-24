@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordsauce</title>
+    <link rel="stylesheet" href="/stylesheets/app.css" type="text/css">
+
+    <%= js :modernizr %>
+  </head>
+  <body>
+    <%= yield %>
+
+    <%= js :libs %>
+    <%= js :application %>
+  </body>
+</html>
