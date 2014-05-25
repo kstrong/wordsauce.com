@@ -22,5 +22,9 @@ assets do
 end
 
 get '/' do
+  erb :sauce
+end
+
+get '/found' do
   erb :foundation_sample
 end

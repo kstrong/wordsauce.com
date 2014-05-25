@@ -38,3 +38,12 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+@font-face {
+  font-family: 'MeltdownMF';
+  src: url('/fonts/MeltdownMF.ttf') format('truetype');
+}
+
+.sauce-font {
+  font-family: 'MeltdownMF';
+}

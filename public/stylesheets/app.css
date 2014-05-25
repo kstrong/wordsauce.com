@@ -7791,3 +7791,13 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important;
 }
+
+@font-face {
+  font-family: 'MeltdownMF';
+  src: url("/fonts/MeltdownMF.ttf") format("truetype");
+}
+
+/* line 47, ../../scss/app.scss */
+.sauce-font {
+  font-family: 'MeltdownMF';
+}
