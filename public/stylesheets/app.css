@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 260, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.2/";
@@ -5845,7 +5844,7 @@ meta.foundation-mq-topbar {
 /* line 185, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
   line-height: 45px;
-  font-size: 1.0625rem;
+  font-size: 1.75rem;
   margin: 0;
 }
 /* line 189, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7792,12 +7791,22 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
+/* line 42, ../../scss/app.scss */
+body {
+  background-color: #3A2;
+}
+
 @font-face {
   font-family: 'MeltdownMF';
   src: url("/fonts/MeltdownMF.ttf") format("truetype");
 }
 
-/* line 47, ../../scss/app.scss */
+/* line 51, ../../scss/app.scss */
 .sauce-font {
   font-family: 'MeltdownMF';
+}
+
+/* line 55, ../../scss/app.scss */
+.top-bar .name h1 a {
+  color: #3A2;
 }
