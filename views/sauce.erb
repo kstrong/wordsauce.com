@@ -7,15 +7,37 @@
 
   <div class="row">
     <div class="large-12 columns">
-      <img src="/images/sauce_bg.png" > 
+      <ul data-orbit>
+        <% (1..5).each do |i| %>
+        <li>
+          <img src="/images/slider/sauce_bg_<%= i %>.jpg" alt="slide <%= i %>" />
+          <div class="orbit-caption">
+            damn, that's saucy.
+          </div>
+        </li>
+        <% end %>
+      </ul>
     </div>
   </div>
 
-  <div class="row">
-    <div class="large-6 medium-6 columns text-center">
-      <a href="#" class="medium radius button">Download</a>
+  <div class="row" data-equalizer>
+    <div class="large-6 medium-6 columns">
+      <div class="panel" data-equalizer-watch>
+        <h3>Download</h3>
+        <p>
+          Wordsauce has finally released their debut EP, "*****", on XX/XX/20XX! 
+          Download it for free, or find us on iTunes, Spotify, Spacewood Radio, etc....
+        </p>
+        <a href="#" class="medium radius success  button">Download</a>
+      </div>
     </div>
-    <div class="large-6 medium-6 columns text-center">
-      <a href="https://soundcloud.com/wordsauce" class="medium radius button" target="_blank">Stream</a>
+    <div class="large-6 medium-6 columns">
+      <div class="panel" data-equalizer-watch>
+        <h3>Stream</h3>
+        <p>
+          Stream Wordsauce's new EP "*****", released on XX/XX/20XX
+        </p>
+        <a href="https://soundcloud.com/wordsauce" class="medium radius alert button" target="_blank">Stream</a>
+      </div>
     </div>
   </div>

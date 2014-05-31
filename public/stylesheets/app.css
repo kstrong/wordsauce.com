@@ -5763,7 +5763,7 @@ meta.foundation-mq-topbar {
 }
 /* line 113, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
 }
 
 /* line 117, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5800,7 +5800,7 @@ meta.foundation-mq-topbar {
   line-height: 45px;
   position: relative;
   background: #333333;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
 }
 /* line 152, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar ul {
@@ -6235,7 +6235,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
     margin: 0 auto;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
   }
 
   /* line 458, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7789,11 +7789,6 @@ th.hide-for-touch {
 /* line 343, ../../bower_components/foundation/scss/foundation/components/_visibility.scss */
 .touch th.show-for-touch {
   display: table-cell !important;
-}
-
-/* line 42, ../../scss/app.scss */
-body {
-  background-color: #3A2;
 }
 
 @font-face {

@@ -28,3 +28,15 @@ end
 get '/found' do
   erb :foundation_sample
 end
+
+get '/tour' do
+  erb :tour
+end
+
+get '/media' do
+  erb :media
+end
+
+get '/contact' do
+  erb :contact
+end
