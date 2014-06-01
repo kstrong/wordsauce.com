@@ -4,3 +4,5 @@
 /stylesheets/*
 error_log
 /public/images/*
+/log/*
+/tmp/*
