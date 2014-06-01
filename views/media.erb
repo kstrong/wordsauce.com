@@ -19,13 +19,27 @@ photos = [
 <div class="row">
   <div class="large-12 columns">
     <div class="panel">
-      <h3>Wordsauce Media</h3>
+      <h3>Photos</h3>
       <hr>
       <ul class="clearing-thumbs" data-clearing>
         <% photos.each do |photo| %>
         <li><a class="sauce-media-thumb" href="/images/fb_photos/<%= photo %>"><img src="/images/thumbs/fb_photos/<%= photo %>"></a></li>
         <% end %>
       </ul>
+      <h3>Videos</h3>
+      <hr>
+      <div class="row">
+        <div class="large-6 columns">
+          <div class="flex-video">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/VFNaL6GExK4" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="large-6 columns">
+          <div class="flex-video">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/Kqswnoxokcc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
