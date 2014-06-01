@@ -29,6 +29,14 @@ get '/found' do
   erb :foundation_sample
 end
 
+get '/band' do
+  erb :band
+end
+
+get '/music' do
+  erb :music
+end
+
 get '/tour' do
   erb :tour
 end
