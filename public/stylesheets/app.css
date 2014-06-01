@@ -7791,6 +7791,11 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
+/* line 42, ../../scss/app.scss */
+body {
+  background-color: #ddd;
+}
+
 @font-face {
   font-family: 'MeltdownMF';
   src: url("/fonts/MeltdownMF.ttf") format("truetype");
