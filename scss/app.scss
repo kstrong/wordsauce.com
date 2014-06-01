@@ -56,6 +56,10 @@ body {
   color: #3A2;
 }
 
+.soundcloud-icon {
+  margin-right: rem-calc(6);
+}
+
 .sauce-media-thumb {
   @include thumb;
   margin-bottom: 10px;

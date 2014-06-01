@@ -7807,6 +7807,11 @@ th.hide-for-touch {
 }
 
 /* line 59, ../../scss/app.scss */
+.soundcloud-icon {
+  margin-right: 0.375rem;
+}
+
+/* line 63, ../../scss/app.scss */
 .sauce-media-thumb {
   line-height: 0;
   display: inline-block;
