@@ -48,3 +48,7 @@ end
 get '/contact' do
   erb :contact
 end
+
+get '/epk' do
+  erb :epk, :layout => :no_menu
+end

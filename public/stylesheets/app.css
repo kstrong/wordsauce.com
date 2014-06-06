@@ -7829,3 +7829,8 @@ body {
 .sauce-media-thumb:hover, .sauce-media-thumb:focus {
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
 }
+
+/* line 68, ../../scss/app.scss */
+.epk-title {
+  color: #3A2;
+}
