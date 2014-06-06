@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/assetpack'
+require 'sinatra/content_for'
 
 assets do
   serve '/js', from: 'js'
