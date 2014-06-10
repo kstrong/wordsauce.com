@@ -65,6 +65,22 @@ body {
   margin-bottom: 10px;
 }
 
+.sauce-contact {
+  .social-icons {
+    margin: 12px 0;
+  }
+}
+
+.reverbnation-icon {
+  background: url('/images/reverbnation_logo_light_small.png') no-repeat;
+  display: inline-block;
+  width: 292px;
+  height: 48px;
+  margin-bottom: 5px;
+  text-align: left;
+  text-indent: -9999px;
+}
+
 // *** EPK
 .epk-title {
   color: #3A2;
