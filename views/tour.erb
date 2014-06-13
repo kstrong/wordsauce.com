@@ -1,3 +1,17 @@
+<%
+# Should link to venue and location
+shows = [
+  { date: '7/13/2014', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
+  #{ date: '7/29/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: [] },
+  #{ date: '8/1/2014', location: 'Ojai, CA', venue: 'The Village Jester', links: [] },
+  { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+  { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
+  { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] },
+  { date: '8/22/2014', location: 'Eureka, CA', venue: 'The Siren\'s Song Tavern', links: [] },
+  { date: '8/27/2014', location: 'Ashland, OR', venue: 'Club 66', links: [] },
+  { date: '8/28/2014', location: 'Grass Valley, CA', venue: 'Pistol Petes', links: [] }
+]
+%>
 
 <div class="row">
   <div class="large-12 columns">
@@ -11,19 +25,11 @@
           </tr>
         </thead>
         <tbody>
+        <% shows.each do |show| %>
           <tr>
-            <% # Should link to venue and location %>
-            <td>7/13/2014</td><td>Ventura, CA</td><td>Surf Rodeo @ Pierpont Beach</td><td><a href="http://surfrodeo.org" target="_blank">surfrodeo.org</a></td>
+            <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td>
           </tr>
-          <tr>
-            <td>7/29/2014</td><td>San Luis Obispo, CA</td><td>Frog N Peach</td><td></td>
-          </tr>
-          <tr>
-            <td>8/1/2014</td><td>Ojai, CA</td><td>The Village Jester</td><td></td>
-          </tr>
-          <tr>
-            <td>8/2/2014</td><td>Ventura, CA</td><td>Bombay Bar &amp; Grill</td><td></td>
-          </tr>
+        <% end %>
         </tbody>
       </table>
     </div>
