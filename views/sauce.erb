@@ -6,7 +6,7 @@
         <li>
           <img src="/images/slider/sauce_bg_<%= i %>.jpg" alt="slide <%= i %>" />
           <div class="orbit-caption">
-            <%= ['Damn, that\'s saucy.', 'The sauce is the boss', 'Cross-Contaminated', 'Catch Wordsauce at Rock n\' Flow 2015!', 'New EP xxx-xxxx in stores now!', 'Only 2014\'s kids will know this', 'salsa de palabra', 'ponte tus zapatos de baile'].sample %>
+            <%= ['Multi-Dimensional.', 'The sauce is the boss', 'Cross-Contaminated', 'Catch Wordsauce at Rock n\' Flow 2015!', 'New EP The Leak out soon!', 'Only 2014\'s kids will know this', 'salsa de palabra', 'ponte tus zapatos de baile'].sample %>
           </div>
         </li>
         <% end %>
@@ -17,21 +17,44 @@
   <div class="row" data-equalizer>
     <div class="large-6 medium-6 columns">
       <div class="panel" data-equalizer-watch>
-        <h3>Download</h3>
-        <p>
-          Wordsauce has finally released their debut EP, "*****", on XX/XX/20XX! 
-          Download it for free, or find us on iTunes, Spotify, Last.fm, Spacewood Radio, etc....
-        </p>
-        <a href="#" class="medium radius success  button">Download</a>
+        <h3>New EP &ldquo;The Leak&rdquo; out soon!</h3>
+        <div class="row">
+          <div class="large-8 medium-8 columns">
+            Wordsauce will be releasing their new EP, "The Leak", on July 1, 2014! 
+            Download it for free, or find us on iTunes, Spotify, Last.fm, and Google Play.
+          </div>
+          <div class="large-4 medium-4 columns">
+            <img src="/images/albumart_front_sm.jpg">
+          </div>
+        </div>
+        <a href="https://soundcloud.com/wordsauce" class="medium radius alert button" target="_blank"><img class="soundcloud-icon" src="/images/soundcloud_icon.png"> Listen on Soundcloud</a>
       </div>
     </div>
     <div class="large-6 medium-6 columns">
       <div class="panel" data-equalizer-watch>
-        <h3>Stream</h3>
-        <p>
-          Stream Wordsauce's new EP "*****", released on XX/XX/20XX
-        </p>
-        <a href="https://soundcloud.com/wordsauce" class="medium radius alert button" target="_blank"><img class="soundcloud-icon" src="/images/soundcloud_icon.png"> Stream</a>
+        <h3>Upcoming Shows</h3>
+        <%
+        shows = [
+          { date: '7/13/2014', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
+          { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+          { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
+          { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] }
+        ]
+        %>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th><th>Location</th><th>Venue</th><th>Links</th>
+            </tr>
+          </thead>
+          <tbody>
+          <% shows.each do |show| %>
+            <tr>
+              <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td>
+            </tr>
+          <% end %>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
