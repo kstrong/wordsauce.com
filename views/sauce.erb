@@ -1,13 +1,24 @@
 
+  <% captions = [
+    'Multi-Dimensional.',
+    'The sauce is the boss',
+    'Cross-Contaminated',
+    'Catch Wordsauce at Rock n\' Flow 2015!',
+    'New EP The Leak out soon!',
+    'Only 2014\'s kids will know this',
+    'salsa de palabra',
+    'ponte tus zapatos de baile'
+  ]
+  %>
   <div class="row">
     <div class="large-12 columns">
       <ul data-orbit data-options="slide_number:false;">
         <% (1..5).each do |i| %>
         <li>
-          <img src="/images/slider/sauce_bg_<%= i %>.jpg" alt="slide <%= i %>" />
-          <div class="orbit-caption">
-            <%= ['Multi-Dimensional.', 'The sauce is the boss', 'Cross-Contaminated', 'Catch Wordsauce at Rock n\' Flow 2015!', 'New EP The Leak out soon!', 'Only 2014\'s kids will know this', 'salsa de palabra', 'ponte tus zapatos de baile'].sample %>
-          </div>
+          <img src="/images/slider/slide_<%= i %>.jpg" alt="slide <%= i %>" />
+      <!--     <div class="orbit-caption">
+            <%= captions.sample %>
+          </div> -->
         </li>
         <% end %>
       </ul>
