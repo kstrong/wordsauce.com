@@ -43,18 +43,24 @@ body {
   background-color: #ddd;
 }
 
-/* TODO: replace this with font from the album cover */
 @font-face {
   font-family: 'MeltdownMF';
   src: url('/fonts/MeltdownMF.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Top Secret';
+  src: url('/fonts/Top Secret.ttf') format('truetype');
+}
+
+$sauce-green: #3A2;
 
 .sauce-font {
   font-family: 'MeltdownMF';
 }
 
 .top-bar .name h1 a {
-  color: #3A2;
+  color: $sauce-green;
 }
 
 .soundcloud-icon {
