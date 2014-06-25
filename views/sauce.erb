@@ -72,7 +72,7 @@
             </tr>
           </thead>
           <tbody>
-          <% shows.first(4).each do |show| %>
+          <% shows.first(5).each do |show| %>
             <tr>
               <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td>
             </tr>
