@@ -28,7 +28,7 @@
   <div class="row" data-equalizer>
     <div class="large-6 medium-6 columns">
       <div class="panel" data-equalizer-watch>
-        <h3>New EP &ldquo;The Leak&rdquo; out soon!</h3>
+        <h3>Listen to new EP &ldquo;The Leak&rdquo;!</h3>
         <div class="row">
           <div class="large-8 medium-8 columns">
             <p>
@@ -62,7 +62,8 @@
           { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
           { date: '8/8/2014', location: 'Lomita, CA', venue: 'The Firehouse', links: [] },
           { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
-          { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] }
+          { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] },
+          { date: '8/18/2014', location: 'Pacifica, CA', venue: 'Winter\'s Tavern', links: [] }
         ]
         %>
         <table>
@@ -72,7 +73,7 @@
             </tr>
           </thead>
           <tbody>
-          <% shows.first(5).each do |show| %>
+          <% shows.each do |show| %>
             <tr>
               <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td>
             </tr>
