@@ -59,6 +59,7 @@
         <%
         shows = [
           { date: '7/13/2014', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
+          { date: '7/29/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: [] },
           { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
           { date: '8/8/2014', location: 'Lomita, CA', venue: 'The Firehouse', links: [] },
           { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
@@ -69,13 +70,13 @@
         <table>
           <thead>
             <tr>
-              <th>Date</th><th>Location</th><th>Venue</th><th>Links</th>
+              <th>Date</th><th>Location</th><th>Venue</th><!--<th>Links</th>-->
             </tr>
           </thead>
           <tbody>
           <% shows.each do |show| %>
             <tr>
-              <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td>
+              <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><!--td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td-->
             </tr>
           <% end %>
           </tbody>
