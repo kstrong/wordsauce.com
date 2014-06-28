@@ -61,6 +61,7 @@
           { date: '7/13/2014', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
           { date: '7/29/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: [] },
           { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+          { date: '8/7/2014', location: 'Long Beach, CA', venue: 'Liquid Lounge', links: [] },
           { date: '8/8/2014', location: 'Lomita, CA', venue: 'The Firehouse', links: [] },
           { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
           { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] },
@@ -74,7 +75,7 @@
             </tr>
           </thead>
           <tbody>
-          <% shows.each do |show| %>
+          <% shows.first(8).each do |show| %>
             <tr>
               <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><!--td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td-->
             </tr>
