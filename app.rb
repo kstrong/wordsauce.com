@@ -49,10 +49,6 @@ get '/' do
   erb :sauce
 end
 
-get '/found' do
-  erb :foundation_sample
-end
-
 get '/band' do
   erb :band
 end
