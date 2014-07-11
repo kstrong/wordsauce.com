@@ -25,9 +25,9 @@ end
 # Should link to venue and location
 shows = [
   { date: '7/13/2014', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
-  { date: '7/29/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: [] },
-  { date: '8/1/2014', location: 'Visalia, CA', venue: 'The Cellar Door', links: [] },
-  { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+  { date: '7/29/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: ['http://www.frogandpeachpub.com/'] },
+  { date: '8/1/2014', location: 'Visalia, CA', venue: 'The Cellar Door', links: ['https://www.facebook.com/events/727321980660712/?ref=5'] },
+  { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: ['http://www.bombaybarandgrill.com/'] },
   { date: '8/4/2014', location: 'Santa Monica, CA', venue: 'TRiP', links: [] },
   { date: '8/7/2014', location: 'Long Beach, CA', venue: 'Liquid Lounge', links: [] },
   { date: '8/8/2014', location: 'Lomita, CA', venue: 'The Firehouse', links: [] },
@@ -40,7 +40,7 @@ shows = [
   { date: '8/22/2014', location: 'Eureka, CA', venue: 'The Siren\'s Song Tavern', links: [] },
   { date: '8/27/2014', location: 'Ashland, OR', venue: 'Club 66', links: [] },
   { date: '8/28/2014', location: 'Auburn, CA', venue: 'Pistol Petes', links: [] },
-  { date: '8/29/2014', location: 'Ukiah, CA', venue: 'Ukiah Brewing Company', links: [] },
+  { date: '8/29/2014', location: 'Ukiah, CA', venue: 'Ukiah Brewing Company', links: ['http://ukiahbrewing.com/'] },
   { date: '8/30/2014', location: 'Concord, CA', venue: 'Red Hat', links: [] }
 ]
 

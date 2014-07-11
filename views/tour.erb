@@ -7,13 +7,23 @@
       <table>
         <thead>
           <tr>
-            <th>Date</th><th>Location</th><th>Venue</th><th>Links</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Venue</th>
           </tr>
         </thead>
         <tbody>
         <% @shows.each do |show| %>
           <tr>
-            <td><%= show[:date] %></td><td><%= show[:location] %></td><td><%= show[:venue] %></td><td><%= show[:links].map{|l| "<a href=\"#{l}\">#{l}</a>" }.join('<br>') %></td>
+            <td><%= show[:date] %></td>
+            <td><%= show[:location] %></td>
+            <td>
+              <% if show[:links].count > 0 %>
+                <a href="<%= show[:links].first %>" target="_blank"><%= show[:venue] %></a>
+              <% else %>
+                <%= show[:venue] %>
+              <% end %>
+            </td>
           </tr>
         <% end %>
         </tbody>
