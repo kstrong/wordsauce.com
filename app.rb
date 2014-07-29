@@ -32,7 +32,7 @@ shows = [
   { date: '8/4/2014', location: 'Santa Monica, CA', venue: 'TRiP', links: [] },
   { date: '8/7/2014', location: 'Long Beach, CA', venue: 'Liquid Lounge', links: [] },
   { date: '8/8/2014', location: 'Lomita, CA', venue: 'The Firehouse', links: [] },
-  { date: '8/9/2014', location: 'San Diego, CA', venue: 'TBA', links: [] },
+  { date: '8/9/2014', location: 'San Diego, CA', venue: 'Casa De Snowdrop', links: [] },
   { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
   { date: '8/15/2014', location: 'San Jose, CA', venue: 'The Back Bar', links: [] },
   { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] },
