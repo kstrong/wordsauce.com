@@ -46,7 +46,7 @@ shows = [
 ]
 
 get '/' do
-  @shows = shows.select { |show| Date.strptime(show[:date], '%m/%d/%Y') >= Date.today}
+  @shows = shows.select { |show| Date.strptime(show[:date], '%m/%d/%Y') >= Date.today }
   erb :sauce
 end
 
