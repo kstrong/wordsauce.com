@@ -29,20 +29,21 @@ shows = [
   { date: '7/29/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: ['http://www.frogandpeachpub.com/'] },
   { date: '8/1/2014', location: 'Visalia, CA', venue: 'The Cellar Door', links: ['https://www.facebook.com/events/727321980660712/?ref=5'] },
   { date: '8/2/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: ['http://www.bombaybarandgrill.com/'] },
-  { date: '8/4/2014', location: 'Santa Monica, CA', venue: 'TRiP', links: [] },
+  { date: '8/4/2014', location: 'Santa Monica, CA', venue: 'TRiP', links: ['http://www.tripsantamonica.com/'] },
   { date: '8/7/2014', location: 'Long Beach, CA', venue: 'Liquid Lounge', links: [] },
   { date: '8/8/2014', location: 'Lomita, CA', venue: 'The Firehouse', links: [] },
   { date: '8/9/2014', location: 'San Diego, CA', venue: 'Casa De Snowdrop', links: [] },
-  { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: [] },
+  { date: '8/13/2014', location: 'Gilroy, CA', venue: 'Studio 222', links: ['https://www.facebook.com/studio222productions'] },
   { date: '8/15/2014', location: 'San Jose, CA', venue: 'The Back Bar', links: [] },
-  { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: [] },
-  { date: '8/18/2014', location: 'Pacifica, CA', venue: 'Winter\'s Tavern', links: [] },
-  { date: '8/21/2014', location: 'Alameda, CA', venue: 'The Fireside Lounge', links: [] },
-  { date: '8/22/2014', location: 'Eureka, CA', venue: 'The Siren\'s Song Tavern', links: [] },
-  { date: '8/27/2014', location: 'Ashland, OR', venue: 'Club 66', links: [] },
-  { date: '8/28/2014', location: 'Auburn, CA', venue: 'Pistol Petes', links: [] },
+  { date: '8/16/2014', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: ['http://theoldprincetonlanding.com/music-schudule/august-2014/'] },
+  { date: '8/18/2014', location: 'Pacifica, CA', venue: 'Winter\'s Tavern', links: ['http://winterstavern.com/'] },
+  { date: '8/21/2014', location: 'Alameda, CA', venue: 'The Fireside Lounge', links: ['http://www.thefiresidelounge.com/'] },
+  { date: '8/22/2014', location: 'Eureka, CA', venue: 'The Siren\'s Song Tavern', links: ['http://www.thesirenssongtavern.com/'] },
+  { date: '8/23/2014', location: 'Coos Bay, OR', venue: 'Blue Moon Saloon &amp; Cafe', links: [] },
+  { date: '8/27/2014', location: 'Ashland, OR', venue: 'Club 66', links: ['https://www.facebook.com/Club66MusicCafe'] },
+  { date: '8/28/2014', location: 'Auburn, CA', venue: 'Pistol Petes', links: ['https://www.facebook.com/pages/Pistol-Petes-Brew-Cue/115203675165310'] },
   { date: '8/29/2014', location: 'Ukiah, CA', venue: 'Ukiah Brewing Company', links: ['http://ukiahbrewing.com/'] },
-  { date: '8/30/2014', location: 'Concord, CA', venue: 'Red Hat', links: [] }
+  { date: '8/30/2014', location: 'Concord, CA', venue: 'Red Hat', links: ['https://www.facebook.com/redhatsportsbar'] }
 ]
 
 get '/' do
