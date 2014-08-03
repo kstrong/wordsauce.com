@@ -2,7 +2,7 @@
 <div class="row">
   <div class="large-12 columns">
     <div class="panel">
-      <h3>Upcoming Shows</h3>
+      <h3>Sauce or Die Tour 2014</h3>
       <hr>
       <table>
         <thead>
@@ -16,18 +16,27 @@
         <% @shows.each do |show| %>
           <tr>
             <td><%= show[:date] %></td>
-            <td><%= show[:location] %></td>
+            <td>
+              <%= show[:location] %>
+              <% if show.key?(:prtm) && show[:prtm] == true %>
+                <span class="prtm-indicator">*</span>
+              <% end %>
+            </td>
             <td>
               <% if show[:links].count > 0 %>
                 <a href="<%= show[:links].first %>" target="_blank"><%= show[:venue] %></a>
               <% else %>
                 <%= show[:venue] %>
               <% end %>
+              <% if show.key?(:prtm) && show[:prtm] == true %>
+                <span class="prtm-indicator">*</span>
+              <% end %>
             </td>
           </tr>
         <% end %>
         </tbody>
       </table>
+      <span class="prtm-indicator">*</span> = Punk Rock Time Machine
     </div>
   </div>
 </div>

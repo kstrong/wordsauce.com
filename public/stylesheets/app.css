@@ -7835,16 +7835,21 @@ body {
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
 }
 
-/* line 76, ../../scss/app.scss */
+/* line 75, ../../scss/app.scss */
+.prtm-indicator {
+  color: red;
+}
+
+/* line 80, ../../scss/app.scss */
 .sauce-contact .social-icons {
   margin: 12px 0;
 }
-/* line 78, ../../scss/app.scss */
+/* line 82, ../../scss/app.scss */
 .sauce-contact .social-icons .webicon {
   margin: 0 8px 0 0;
 }
 
-/* line 84, ../../scss/app.scss */
+/* line 88, ../../scss/app.scss */
 .reverbnation-icon {
   background: url("/images/reverbnation_logo_light_small.png") no-repeat;
   display: inline-block;
@@ -7855,12 +7860,12 @@ body {
   text-indent: -9999px;
 }
 
-/* line 95, ../../scss/app.scss */
+/* line 99, ../../scss/app.scss */
 .epk-title {
   color: #3A2;
 }
 
-/* line 99, ../../scss/app.scss */
+/* line 103, ../../scss/app.scss */
 div.sauce-epk div.show-highlights {
   margin-bottom: 20px;
 }
