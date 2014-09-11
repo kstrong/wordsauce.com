@@ -72,7 +72,7 @@
               <td>
                 <%= show[:location] %>
                 <% if show.key?(:prtm) && show[:prtm] == true %>
-                  <span class="prtm-indicator">*</span>
+                  <span class="prtm-indicator" title="Punk Rock Time Machine">*</span>
                 <% end %>
               </td>
               <td>
@@ -82,7 +82,7 @@
                   <%= show[:venue] %>
                 <% end %>
                 <% if show.key?(:prtm) && show[:prtm] == true %>
-                  <span class="prtm-indicator">*</span>
+                  <span class="prtm-indicator" title="Punk Rock Time Machine">*</span>
                 <% end %>
               </td>
             </tr>
