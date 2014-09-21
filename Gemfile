@@ -7,3 +7,6 @@ gem 'foundation'
 gem 'sinatra'
 gem 'sinatra-assetpack'
 gem 'sinatra-contrib'
+
+gem 'colorize'
+
