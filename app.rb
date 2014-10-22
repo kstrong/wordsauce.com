@@ -58,8 +58,9 @@ tours = [
       { date: '9/12/2014', location: 'San Diego, CA', venue: 'Gallagher\'s', links: ['http://gallagherspubob.com/'] },
       { date: '10/2/2014', location: 'Pomona, CA', venue: 'Flyway at Fox', links: ['https://www.facebook.com/events/1487677891492088/'] },
       { date: '10/31/2014', location: 'San Luis Obispo, CA', venue: 'Cal Poly', links: [] },
+      { date: '11/15/2014', location: 'Lompoc, CA', venue: 'Johnny\'s Bar &amp; Grill', links: ['https://www.facebook.com/events/1491665211104852/'] },
       { date: '11/18/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: [] },
-      { date: '11/22/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+      { date: '11/22/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] }
     ]
   }
 ]
