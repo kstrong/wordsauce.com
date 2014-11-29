@@ -60,13 +60,15 @@ tours = [
       { date: '10/31/2014', location: 'San Luis Obispo, CA', venue: 'Cal Poly', links: [] },
       { date: '11/15/2014', location: 'Lompoc, CA', venue: 'Johnny\'s Bar &amp; Grill', links: ['https://www.facebook.com/events/1491665211104852/'] },
       { date: '11/18/2014', location: 'San Luis Obispo, CA', venue: 'Frog N Peach', links: [] },
-      { date: '11/22/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] }
+      { date: '11/22/2014', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+      { date: '12/12/2014', location: 'Paso Robles, CA', venue: 'Downtown Brewing Company', links: [] },
+      { date: '12/20/2014', location: 'San Luis Obispo, CA', venue: 'Creekside Brewing Company', links: [] }
     ]
   }
 ]
 
 get '/' do
-  shows = tours.collect { |tour| tour[:dates] }.flatten
+  shows = tours.flat_map { |tour| tour[:dates] }
   @shows = shows.select { |show| Date.strptime(show[:date], '%m/%d/%Y') >= Date.today }
   erb :sauce
 end
