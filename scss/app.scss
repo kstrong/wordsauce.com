@@ -63,6 +63,10 @@ $sauce-green: #3A2;
   color: $sauce-green;
 }
 
+.hero-image img {
+  margin-bottom: rem-calc(24);
+}
+
 .soundcloud-icon {
   margin-right: rem-calc(6);
 }
