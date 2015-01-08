@@ -68,7 +68,7 @@ tours = [
   {
     name: 'Winter 2015',
     dates: [
-      { date: '1/23/2014', location: 'Avila Beach, CA', venue: 'Mr. Rick\'s', links: [] }
+      { date: '1/23/2015', location: 'Avila Beach, CA', venue: 'Mr. Rick\'s', links: [] }
     ]
   }
 ]
