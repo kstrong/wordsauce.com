@@ -64,6 +64,12 @@ tours = [
       { date: '12/12/2014', location: 'Paso Robles, CA', venue: 'Downtown Brewing Company', links: [] },
       { date: '12/20/2014', location: 'San Luis Obispo, CA', venue: 'Creekside Brewing Company', links: [] }
     ]
+  },
+  {
+    name: 'Winter 2015',
+    dates: [
+      { date: '1/23/2014', location: 'Avila Beach, CA', venue: 'Mr. Rick\'s', links: [] }
+    ]
   }
 ]
 
