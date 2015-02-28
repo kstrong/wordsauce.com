@@ -73,6 +73,12 @@ tours = [
       { date: '2/21/2015', location: 'Los Osos, CA', venue: 'Sweet Springs Saloon', links: [], prtm: true },
       { date: '2/26/2015', location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: [] }
     ]
+  },
+  {
+    name: 'Spring 2015',
+    dates: [
+      { date: '3/21/2015', location: 'San Luis Obispo, CA', venue: '273 Fest @ Tap It Brewery', links: [] }
+    ]
   }
 ]
 
