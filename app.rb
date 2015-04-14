@@ -116,3 +116,7 @@ end
 get '/epk' do
   erb :epk, :layout => :no_menu
 end
+
+get '/thesaucepot' do
+  redirect to('http://thesaucepot.info'), 302
+end
