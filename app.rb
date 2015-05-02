@@ -78,10 +78,10 @@ tours = [
     name: 'Spring 2015',
     dates: [
       { date: '3/21/2015', location: 'San Luis Obispo, CA', venue: '273 Fest @ Tap It Brewery', links: [] },
-      { date: '4/4/2015', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
+      { date: '4/4/2015',  location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill', links: [] },
       { date: '4/24/2015', location: 'Gilroy, CA', venue: 'The Longhouse' },
       { date: '4/25/2015', location: 'Concord, CA', venue: 'Red Hat' },
-      { date: '5/2/2015', location: 'Cayucos, CA', venue: 'Hoof Fest' }
+      { date: '5/2/2015',  location: 'Cayucos, CA', venue: 'Hoof Fest' }
     ]
   }
 ]
