@@ -82,7 +82,14 @@ tours = [
       { date: '4/24/2015', location: 'Gilroy, CA', venue: 'The Longhouse' },
       { date: '4/25/2015', location: 'Concord, CA', venue: 'Red Hat' },
       { date: '5/2/2015',  location: 'Cayucos, CA', venue: 'Hoof Fest' },
-      { date: '6/5/2015',  location: 'Santa Barbara, CA', venue: 'Velvet Jones' }
+      { date: '6/5/2015',  location: 'Santa Barbara, CA', venue: 'Velvet Jones' },
+      { date: '6/20/2015', location: 'San Luis Obispo, CA', venue: 'Tap It Brewery' }
+    ]
+  },
+  {
+    name: 'Summer 2015',
+    dates: [
+      { date: '7/18/2015', location: 'San Luis Obispo, CA', venue: 'SLO Brew' }
     ]
   }
 ]
