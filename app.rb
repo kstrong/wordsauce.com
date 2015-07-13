@@ -113,7 +113,7 @@ get '/music' do
 end
 
 get '/tour' do
-  @tours = tours
+  @tours = tours.reverse
   erb :tour
 end
 
