@@ -39,10 +39,6 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-body {
-  background-color: #ddd;
-}
-
 @font-face {
   font-family: 'MeltdownMF';
   src: url('/fonts/MeltdownMF.ttf') format('truetype');
@@ -53,15 +49,46 @@ body {
   src: url('/fonts/Top Secret.ttf') format('truetype');
 }
 
+// @font-face {
+//   font-family: 'Knockout-HTF54-Sumo';
+//   src: url('/fonts/knockout-htf54-sumo.eot') format('embedded-opentype');
+//   src: url('/fonts/knockout-htf54-sumo.ttf') format('truetype');
+//   src: url('/fonts/knockout-htf54-sumo.woff') format('woff');
+// }
+
+// @font-face {
+//   font-family: 'Knockout-HTF93-UltmtHeviwt';
+//   src: url('/fonts/knockout-htf93-ultmtheviwt.eot') format('embedded-opentype');
+//   src: url('/fonts/knockout-htf93-ultmtheviwt.ttf') format('truetype');
+//   src: url('/fonts/knockout-htf93-ultmtheviwt.woff') format('woff');
+// }
+
+body {
+  letter-spacing: 0.05em;
+}
+
 $sauce-green: #3A2;
 
+$theflow-wordsauce-title-color: #A0B6B0;
+
 .sauce-font {
-  font-family: 'Top Secret';
+  //font-family: 'Top Secret';
+  font-family: 'Knockout-HTF93-UltmtHeviwt', Verdana, 'Helvetica Neue', sans-serif;
 }
 
 .top-bar .name h1 a {
-  color: $sauce-green;
+  color: $theflow-wordsauce-title-color;
 }
+
+.top-bar .top-bar-section ul li a {
+  color: $theflow-wordsauce-title-color;
+  font-family: 'Knockout-HTF33-JuniorHeviwt', Verdana, 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+// h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+//   color: #a4a4a4;
+// }
 
 .hero-image img {
   margin-bottom: rem-calc(24);
@@ -99,7 +126,7 @@ $sauce-green: #3A2;
   text-indent: -9999px;
 }
 
-// *** EPK
+// *** EPK ***
 .epk-title {
   color: #3A2;
 }

@@ -39,10 +39,9 @@
 // Global
 
 // We use these to control various global styles
-// $body-bg: #fff;
+$body-bg: #1b4263;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "American Typewriter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -122,7 +121,7 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 // $header-font-family: $body-font-family;
 // $header-font-weight: normal;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: #ddd;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -145,7 +144,7 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // A general <small> styling
 // $small-font-size: 60%;
-// $small-font-color: scale-color($header-font-color, $lightness: 35%);
+$small-font-color: scale-color($header-font-color, $lightness: -25%);
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
@@ -171,7 +170,7 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
-// $hr-border-color: #ddd;
+$hr-border-color: #4F6D86;
 // $hr-margin: rem-calc(20);
 
 // We use these to style lists
@@ -185,9 +184,9 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 // $definition-list-margin-bottom: rem-calc(12);
 
 // We use these to style blockquotes
-// $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
+$blockquote-font-color: scale-color($header-font-color, $lightness: -35%);
 // $blockquote-padding: rem-calc(9 20 0 19);
-// $blockquote-border: 1px solid #ddd;
+$blockquote-border: 1px solid #4F6D86;
 // $blockquote-cite-font-size: rem-calc(13);
 // $blockquote-cite-font-color: scale-color($header-font-color, $lightness: 23%);
 // $blockquote-cite-link-color: $blockquote-cite-font-color;
@@ -202,7 +201,7 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 // We use these to control the border styles
 // $microformat-border-width: 1px;
 // $microformat-border-style: solid;
-// $microformat-border-color: #ddd;
+$microformat-border-color: #4F6D86;
 
 // We use these to control full name font styles
 // $microformat-fullname-font-weight: bold;
@@ -804,6 +803,7 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // We use these to control the background and border styles
 // $panel-bg: scale-color(#fff, $lightness: -5%);
+$panel-bg: #325775;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
@@ -817,7 +817,7 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // We use these to set default font colors
 // $panel-font-color: #333;
-// $panel-font-color-alt: #fff;
+$panel-font-color-alt: #ddd;
 
 // $panel-header-adjust: true;
 // $callout-panel-link-color: $primary-color;
@@ -1074,25 +1074,25 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: #fff;
-// $table-even-row-bg: #f9f9f9  ;
+$table-bg: #090744;
+$table-even-row-bg: #131258;
 
 // These control the table cell border style
 // $table-border-style: solid;
 // $table-border-size: 1px;
-// $table-border-color: #ddd;
+$table-border-color: #25246b;
 
 // These control the table head styles
-// $table-head-bg: #f5f5f5  ;
+$table-head-bg: #4f6d86;
 // $table-head-font-size: rem-calc(14);
-// $table-head-font-color: #222;
+$table-head-font-color: #d0a974;
 // $table-head-font-weight: bold;
 // $table-head-padding: rem-calc(8 10 10);
 
 // These control the row padding and font styles
 // $table-row-padding: rem-calc(9 10);
 // $table-row-font-size: rem-calc(14);
-// $table-row-font-color: #222;
+$table-row-font-color: #b68646;
 // $table-line-height: rem-calc(18);
 
 // These are for controlling the display and margin of tables
@@ -1174,12 +1174,10 @@ $body-font-family: Verdana, "Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // Height and margin
 // $topbar-height: 45px;
-// $topbar-margin-bottom: 0;
 $topbar-margin-bottom: rem-calc(24);
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: normal;
-// $topbar-title-font-size: rem-calc(17);
 $topbar-title-font-size: rem-calc(28);
 
 // Style the top bar dropdown elements
@@ -1197,7 +1195,6 @@ $topbar-title-font-size: rem-calc(28);
 // $topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: normal;
-// $topbar-link-font-size: rem-calc(13);
 $topbar-link-font-size: rem-calc(14);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
