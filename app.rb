@@ -1,6 +1,9 @@
 require 'sinatra'
 require 'sinatra/assetpack'
+require 'sinatra/config_file'
 require 'sinatra/content_for'
+
+config_file 'configuration.yml'
 
 assets do
   serve '/js', from: 'js'
