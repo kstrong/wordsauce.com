@@ -132,3 +132,7 @@ end
 get '/epk' do
   erb :epk, :layout => :no_menu
 end
+
+get '/store' do
+  redirect settings.store_url, 302
+end
