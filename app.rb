@@ -97,7 +97,17 @@ tours = [
       { date: '7/25/2015', location: 'Tulare, CA', venue: 'Halfy\'s' },
       { date: '7/26/2015', location: 'Ventura, CA', venue: 'Bombay Bar &amp; Grill' },
       { date: '8/15/2015', location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing' },
-      { date: '9/7/2015',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrewingco.com/calendar/view/3437'] }
+      { date: '9/7/2015',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrewingco.com/calendar/view/3437'] },
+      { date: '9/18/2015', location: 'Ventura, CA', venue: 'Discovery', links: ['https://nightout.com/events/zion-i/9-18-2015/tickets#.VfYM453BzGc'] }
+    ]
+  },
+  {
+    name: 'Fall 2015',
+    dates: [
+      { date: '10/6/2015',  location: 'San Luis Obispo, CA', venue: 'Frog N Peach' },
+      { date: '10/23/2015', location: 'Morro Bay, CA', venue: 'The Siren' },
+      { date: '10/29/2015', location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrewingco.com/calendar/view/3473'] },
+      { date: '11/7/2015',  location: 'San Luis Obispo, CA', venue: 'Tap It Brewery' }
     ]
   }
 ]
