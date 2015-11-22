@@ -107,7 +107,9 @@ tours = [
       { date: '10/6/2015',  location: 'San Luis Obispo, CA', venue: 'Frog N Peach' },
       { date: '10/23/2015', location: 'Morro Bay, CA', venue: 'The Siren' },
       { date: '10/29/2015', location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrewingco.com/calendar/view/3473'] },
-      { date: '11/7/2015',  location: 'San Luis Obispo, CA', venue: 'Tap It Brewery' }
+      { date: '11/7/2015',  location: 'San Luis Obispo, CA', venue: 'Tap It Brewery' },
+      { date: '12/18/2015',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrewingco.com/calendar/view/3496'] },
+      { date: '12/19/2015',  location: 'Morro Bay, CA', venue: 'The Siren' }
     ]
   }
 ]
