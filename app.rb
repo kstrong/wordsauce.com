@@ -111,6 +111,12 @@ tours = [
       { date: '12/18/2015',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrewingco.com/calendar/view/3496'] },
       { date: '12/19/2015',  location: 'Morro Bay, CA', venue: 'The Siren' }
     ]
+  },
+  {
+    name: 'Winter 2016',
+    dates: [
+      { date: '1/21/2016', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['https://www.facebook.com/events/1738295209722581/'] }
+    ]
   }
 ]
 
