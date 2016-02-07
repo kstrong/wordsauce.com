@@ -126,6 +126,12 @@ get '/' do
   erb :sauce
 end
 
+get '/example' do
+  shows = tours.flat_map { |tour| tour[:dates] }
+  @shows = shows.select { |show| Date.strptime(show[:date], '%m/%d/%Y') >= Date.today }
+  erb :sauce_ads
+end
+
 get '/band' do
   erb :band
 end
