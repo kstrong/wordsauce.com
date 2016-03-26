@@ -21579,35 +21579,40 @@ body {
   letter-spacing: 0.05em;
 }
 
-/* line 74, ../../scss/app.scss */
+/* line 101, ../../scss/app.scss */
+li {
+  color: #D0A974;
+}
+
+/* line 105, ../../scss/app.scss */
 .sauce-font {
   font-family: 'Knockout-HTF93-UltmtHeviwt', Verdana, 'Helvetica Neue', sans-serif;
 }
 
-/* line 79, ../../scss/app.scss */
+/* line 110, ../../scss/app.scss */
 .top-bar .name h1 a {
   color: #A0B6B0;
 }
 
-/* line 83, ../../scss/app.scss */
+/* line 114, ../../scss/app.scss */
 .top-bar .top-bar-section ul li a {
   color: #A0B6B0;
   font-family: 'Knockout-HTF33-JuniorHeviwt', Verdana, 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
 }
 
-/* line 93, ../../scss/app.scss */
+/* line 124, ../../scss/app.scss */
 .hero-image img {
   margin-bottom: 1.5rem;
   width: 100%;
 }
 
-/* line 98, ../../scss/app.scss */
+/* line 129, ../../scss/app.scss */
 .soundcloud-icon {
   margin-right: 0.375rem;
 }
 
-/* line 102, ../../scss/app.scss */
+/* line 133, ../../scss/app.scss */
 .sauce-media-thumb {
   line-height: 0;
   display: inline-block;
@@ -21621,21 +21626,21 @@ body {
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
 }
 
-/* line 107, ../../scss/app.scss */
+/* line 138, ../../scss/app.scss */
 .prtm-indicator {
   color: red;
 }
 
-/* line 112, ../../scss/app.scss */
+/* line 143, ../../scss/app.scss */
 .sauce-contact .social-icons {
   margin: 12px 0;
 }
-/* line 114, ../../scss/app.scss */
+/* line 145, ../../scss/app.scss */
 .sauce-contact .social-icons .webicon {
   margin: 0 8px 0 0;
 }
 
-/* line 120, ../../scss/app.scss */
+/* line 151, ../../scss/app.scss */
 .reverbnation-icon {
   background: url("/images/reverbnation_logo_light_small.png") no-repeat;
   display: inline-block;
@@ -21646,20 +21651,20 @@ body {
   text-indent: -9999px;
 }
 
-/* line 131, ../../scss/app.scss */
+/* line 162, ../../scss/app.scss */
 .epk-title {
   color: #3A2;
 }
 
-/* line 136, ../../scss/app.scss */
+/* line 167, ../../scss/app.scss */
 .sauce-epk .photo-row {
   margin: 20px 0;
 }
-/* line 138, ../../scss/app.scss */
+/* line 169, ../../scss/app.scss */
 .sauce-epk .photo-row a {
   margin-bottom: 20px;
 }
-/* line 142, ../../scss/app.scss */
+/* line 173, ../../scss/app.scss */
 .sauce-epk .show-highlights {
   margin-bottom: 20px;
 }
