@@ -1,5 +1,8 @@
-cd public/images/fb_photos
+#!/bin/zsh
+
+folder="new_photos"
+cd public/images/$folder
 for filename in *
 do
-  convert $filename -resize 100x100\^ -gravity center -extent 100x100 "../thumbs/fb_photos/$filename"
+  convert $filename -resize 100x100\^ -gravity center -extent 100x100 "../thumbs/$folder/$filename"
 done
