@@ -117,6 +117,12 @@ tours = [
     dates: [
       { date: '1/21/2016', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['https://www.facebook.com/events/1738295209722581/'] }
     ]
+  },
+  {
+    name: 'Spring 2016',
+    dates: [
+      { date: '4/21/2016', location: 'Los Angeles, CA', venue: 'Los Globos' }
+    ]
   }
 ]
 

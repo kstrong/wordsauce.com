@@ -132,6 +132,14 @@ $theflow-wordsauce-title-color: #A0B6B0;
   color: #3A2;
 }
 
-div.sauce-epk div.show-highlights {
-  margin-bottom: 20px;
+.sauce-epk {
+  .photo-row {
+    margin: 20px 0;
+    a {
+      margin-bottom: 20px;
+    }
+  }
+  .show-highlights {
+    margin-bottom: 20px;
+  }
 }
