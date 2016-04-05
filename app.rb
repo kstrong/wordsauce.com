@@ -121,6 +121,7 @@ tours = [
   {
     name: 'Spring 2016',
     dates: [
+      { date: '4/16/2016', location: 'San Luis Obispo, CA', venue: 'Boo Boo Records' },
       { date: '4/21/2016', location: 'Los Angeles, CA', venue: 'Los Globos' },
       { date: '4/22/2016', location: 'Oceanside, CA', venue: 'Davina\'s Cabo Grill' }
     ]
