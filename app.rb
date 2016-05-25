@@ -124,7 +124,17 @@ tours = [
       { date: '4/16/2016', location: 'San Luis Obispo, CA', venue: 'Boo Boo Records' },
       { date: '4/21/2016', location: 'Los Angeles, CA', venue: 'Los Globos' },
       { date: '4/22/2016', location: 'Oceanside, CA', venue: 'Davina\'s Cabo Grill' },
-      { date: '4/23/2016', location: 'Ojai, CA', venue: 'The Deer Lodge' }
+      { date: '4/23/2016', location: 'Ojai, CA', venue: 'The Deer Lodge' },
+      { date: '6/3/2016',  location: 'Santa Clara County, CA', venue: 'Mt. Madonna' },
+      { date: '6/5/2016',  location: 'Watsonville, CA', venue: 'Live on KPIG Radio' },
+      { date: '6/15/2016', location: 'San Luis Obispo, CA', venue: 'Tap It Brewery' },
+      { date: '6/19/2016', location: 'Cachagua, Monterey County, CA', venue: 'Big Surreal 2016' }
+    ]
+  }
+  {
+    name: 'Summer 2016',
+    dates: [
+      { date: '7/17/2016', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] }
     ]
   }
 ]
