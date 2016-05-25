@@ -130,7 +130,7 @@ tours = [
       { date: '6/15/2016', location: 'San Luis Obispo, CA', venue: 'Tap It Brewery' },
       { date: '6/19/2016', location: 'Cachagua, Monterey County, CA', venue: 'Big Surreal 2016' }
     ]
-  }
+  },
   {
     name: 'Summer 2016',
     dates: [
