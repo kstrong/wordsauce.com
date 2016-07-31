@@ -134,7 +134,10 @@ tours = [
   {
     name: 'Summer 2016',
     dates: [
-      { date: '7/17/2016', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] }
+      { date: '7/17/2016', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
+      { date: '8/26/2016', location: 'Paso Robles, CA', venue: 'Tooth &amp; Nail Winery', links: ['https://www.facebook.com/events/108699699573764/'] },
+      { date: '8/27/2016', location: 'Grover Beach, CA', venue: 'Stone Soup Music Festival and Street Faire', links: ['http://www.aggbchamber.com/stone-soup'] },
+      { date: '9/3/2016',  location: 'San Luis Obispo, CA', venue: 'Brews &amp; Bites 2016', links: ['https://nightout.com/events/slobrewsandbites/tickets'] }
     ]
   }
 ]
