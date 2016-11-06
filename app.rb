@@ -140,6 +140,12 @@ tours = [
       { date: '9/3/2016',  location: 'San Luis Obispo, CA', venue: 'Brews &amp; Bites 2016', links: ['https://nightout.com/events/slobrewsandbites/tickets'] },
       { date: '9/4/2016',  location: 'Ventura, CA', venue: 'The LAB' }
     ]
+  },
+  {
+    name: 'Fall 2016',
+    dates: [
+      { date: '11/17/2016', location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrew.com/events/7002755/wordsauce-reason-to-rebel/'] }
+    ]
   }
 ]
 
