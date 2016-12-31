@@ -146,6 +146,12 @@ tours = [
     dates: [
       { date: '11/17/2016', location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['http://www.slobrew.com/events/7002755/wordsauce-reason-to-rebel/'] }
     ]
+  },
+  {
+    name: 'Winter 2016',
+    dates: [
+      { date: '12/31/2016', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/1690653724559375/'] }
+    ]
   }
 ]
 
