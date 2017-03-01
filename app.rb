@@ -153,6 +153,14 @@ tours = [
       { date: '12/31/2016', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/1690653724559375/'] },
       { date: '1/21/2017', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['https://www.facebook.com/events/1269814203062519/'] }
     ]
+  },
+  {
+    name: 'Spring 2017',
+    dates: [
+      { date: '3/31/2017', location: 'San Diego, CA', venue: 'Aztec Brewing Company', links: ['http://www.aztecbrewery.com/'] },
+      { date: '4/1/2017', location: 'San Diego, CA', venue: '710 Beach Club', links: ['http://www.710bc.com/'] },
+      { date: '4/22/2017', location: 'Morro Bay, CA', venue: 'The Siren', links: ['http://thesirenmorrobay.com/'] }
+    ]
   }
 ]
 
