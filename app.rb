@@ -160,8 +160,15 @@ tours = [
       { date: '3/31/2017', location: 'San Diego, CA', venue: 'Aztec Brewing Company', links: ['http://www.aztecbrewery.com/'] },
       { date: '4/1/2017', location: 'San Diego, CA', venue: '710 Beach Club', links: ['http://www.710bc.com/'] },
       { date: '4/22/2017', location: 'Morro Bay, CA', venue: 'The Siren', links: ['http://thesirenmorrobay.com/'] },
+      { date: '5/25/2017', location: 'Ventura, CA', venue: 'The Majestic Ventura Theatre', links: ['https://www.facebook.com/events/103873563463142/'] },
       { date: '5/26/2017', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['https://www.facebook.com/events/264933723946041/'] },
       { date: '6/17/2017', location: 'Santa Barbara, CA', venue: 'Live Oak Music Festival', links: ['http://www.liveoakfest.org/'] }
+    ]
+  },
+  {
+    name: 'Summer 2017',
+    dates: [
+      { date: '6/22/2017', location: 'Cachagua Valley, CA', venue: 'Big Surreal 2017', links: ['http://www.luvlabproductions.org/'] },
     ]
   }
 ]
@@ -172,11 +179,11 @@ get '/' do
   erb :sauce
 end
 
-get '/example' do
-  shows = tours.flat_map { |tour| tour[:dates] }
-  @shows = shows.select { |show| Date.strptime(show[:date], '%m/%d/%Y') >= Date.today }
-  erb :sauce_ads
-end
+# get '/example' do
+#   shows = tours.flat_map { |tour| tour[:dates] }
+#   @shows = shows.select { |show| Date.strptime(show[:date], '%m/%d/%Y') >= Date.today }
+#   erb :sauce_ads
+# end
 
 get '/band' do
   erb :band
