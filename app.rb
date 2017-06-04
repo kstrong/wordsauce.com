@@ -162,6 +162,7 @@ tours = [
       { date: '4/22/2017', location: 'Morro Bay, CA', venue: 'The Siren', links: ['http://thesirenmorrobay.com/'] },
       { date: '5/25/2017', location: 'Ventura, CA', venue: 'The Majestic Ventura Theatre', links: ['https://www.facebook.com/events/103873563463142/'] },
       { date: '5/26/2017', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['https://www.facebook.com/events/264933723946041/'] },
+      { date: '6/11/2017',  location: 'Watsonville, CA', venue: 'Live on KPIG Radio' },
       { date: '6/17/2017', location: 'Santa Barbara, CA', venue: 'Live Oak Music Festival', links: ['http://www.liveoakfest.org/'] }
     ]
   },
