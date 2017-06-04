@@ -49,19 +49,29 @@
   src: url('/fonts/Top Secret.ttf') format('truetype');
 }
 
-// @font-face {
-//   font-family: 'Knockout-HTF54-Sumo';
-//   src: url('/fonts/knockout-htf54-sumo.eot') format('embedded-opentype');
-//   src: url('/fonts/knockout-htf54-sumo.ttf') format('truetype');
-//   src: url('/fonts/knockout-htf54-sumo.woff') format('woff');
-// }
+@font-face {
+  font-family: 'Knockout-HTF33-JuniorHeviwt';
+  src: url('/fonts/Knockout-HTF33-JuniorHeviwt.eot');
+  src: url('/fonts/Knockout-HTF33-JuniorHeviwt.woff2') format('woff2'),
+       url('/fonts/Knockout-HTF33-JuniorHeviwt.woff') format('woff'),
+       url('/fonts/Knockout-HTF33-JuniorHeviwt.ttf') format('truetype'),
+       url('/fonts/Knockout-HTF33-JuniorHeviwt.svg#Knockout-HTF33-JuniorHeviwt') format('svg'),
+       url('/fonts/Knockout-HTF33-JuniorHeviwt.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'Knockout-HTF93-UltmtHeviwt';
-//   src: url('/fonts/knockout-htf93-ultmtheviwt.eot') format('embedded-opentype');
-//   src: url('/fonts/knockout-htf93-ultmtheviwt.ttf') format('truetype');
-//   src: url('/fonts/knockout-htf93-ultmtheviwt.woff') format('woff');
-// }
+@font-face {
+  font-family: 'Knockout-HTF93-UltmtHeviwt';
+  src: url('/fonts/Knockout-HTF93-UltmtHeviwt.eot');
+  src: url('/fonts/Knockout-HTF93-UltmtHeviwt.woff2') format('woff2'),
+       url('/fonts/Knockout-HTF93-UltmtHeviwt.woff') format('woff'),
+       url('/fonts/Knockout-HTF93-UltmtHeviwt.ttf') format('truetype'),
+       url('/fonts/Knockout-HTF93-UltmtHeviwt.svg#Knockout-HTF93-UltmtHeviwt') format('svg'),
+       url('/fonts/Knockout-HTF93-UltmtHeviwt.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   letter-spacing: 0.05em;
