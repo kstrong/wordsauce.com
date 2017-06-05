@@ -15614,7 +15614,7 @@ meta.foundation-mq-topbar {
   width: 16px;
   top: 0;
   height: 0;
-  box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+  box-shadow: 0 10px 0 1px #A0B6B0, 0 16px 0 1px #A0B6B0, 0 22px 0 1px #A0B6B0;
 }
 /* line 253, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded {
@@ -15896,7 +15896,7 @@ meta.foundation-mq-topbar {
   padding: 8px 15px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #777;
+  color: #A0B6B0;
   font-weight: bold;
   font-size: 0.625rem;
 }
@@ -20201,7 +20201,7 @@ meta.foundation-mq-topbar {
   width: 16px;
   top: 0;
   height: 0;
-  box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+  box-shadow: 0 10px 0 1px #A0B6B0, 0 16px 0 1px #A0B6B0, 0 22px 0 1px #A0B6B0;
 }
 /* line 253, ../../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded {
@@ -20483,7 +20483,7 @@ meta.foundation-mq-topbar {
   padding: 8px 15px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #777;
+  color: #A0B6B0;
   font-weight: bold;
   font-size: 0.625rem;
 }
@@ -21615,18 +21615,29 @@ li {
   text-transform: uppercase;
 }
 
-/* line 134, ../../scss/app.scss */
+/* line 130, ../../scss/app.scss */
+.top-bar .toggle-topbar.menu-icon a span {
+  color: #A0B6B0;
+  font-family: 'Knockout-HTF33-JuniorHeviwt', Verdana, 'Helvetica Neue', sans-serif;
+}
+
+/* line 135, ../../scss/app.scss */
+.top-bar.expanded .toggle-topbar.menu-icon a span {
+  color: #888;
+}
+
+/* line 143, ../../scss/app.scss */
 .hero-image img {
   margin-bottom: 1.5rem;
   width: 100%;
 }
 
-/* line 139, ../../scss/app.scss */
+/* line 148, ../../scss/app.scss */
 .soundcloud-icon {
   margin-right: 0.375rem;
 }
 
-/* line 143, ../../scss/app.scss */
+/* line 152, ../../scss/app.scss */
 .sauce-media-thumb {
   line-height: 0;
   display: inline-block;
@@ -21640,21 +21651,21 @@ li {
   box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
 }
 
-/* line 148, ../../scss/app.scss */
+/* line 157, ../../scss/app.scss */
 .prtm-indicator {
   color: red;
 }
 
-/* line 153, ../../scss/app.scss */
+/* line 162, ../../scss/app.scss */
 .sauce-contact .social-icons {
   margin: 12px 0;
 }
-/* line 155, ../../scss/app.scss */
+/* line 164, ../../scss/app.scss */
 .sauce-contact .social-icons .webicon {
   margin: 0 8px 0 0;
 }
 
-/* line 161, ../../scss/app.scss */
+/* line 170, ../../scss/app.scss */
 .reverbnation-icon {
   background: url("/images/reverbnation_logo_light_small.png") no-repeat;
   display: inline-block;
@@ -21665,20 +21676,20 @@ li {
   text-indent: -9999px;
 }
 
-/* line 172, ../../scss/app.scss */
+/* line 181, ../../scss/app.scss */
 .epk-title {
   color: #3A2;
 }
 
-/* line 177, ../../scss/app.scss */
+/* line 186, ../../scss/app.scss */
 .sauce-epk .photo-row {
   margin: 20px 0;
 }
-/* line 179, ../../scss/app.scss */
+/* line 188, ../../scss/app.scss */
 .sauce-epk .photo-row a {
   margin-bottom: 20px;
 }
-/* line 183, ../../scss/app.scss */
+/* line 192, ../../scss/app.scss */
 .sauce-epk .show-highlights {
   margin-bottom: 20px;
 }

@@ -127,6 +127,15 @@ li {
   text-transform: uppercase;
 }
 
+.top-bar .toggle-topbar.menu-icon a span {
+  color: $theflow-wordsauce-title-color;
+  font-family: 'Knockout-HTF33-JuniorHeviwt', Verdana, 'Helvetica Neue', sans-serif;
+}
+
+.top-bar.expanded .toggle-topbar.menu-icon a span {
+  color: #888;
+}
+
 // h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 //   color: #a4a4a4;
 // }
