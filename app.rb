@@ -173,6 +173,7 @@ tours = [
       { date: '7/15/2017', location: 'Ventura, CA', venue: 'Surf Rodeo @ Pierpont Beach', links: ['http://surfrodeo.org'] },
       { date: '7/23/2017', location: 'Paso Robles, CA', venue: 'California Mid-State Fair', links: ['https://www.midstatefair.com/fair/'] },
       { date: '8/4/2017', location: 'Santa Maria, CA', venue: 'Ca\' Del Grevino', links: ['https://grevino.com/'] },
+      { date: '8/23/2017',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/events/7611695/wordsauce-canto/'] },
     ]
   }
 ]
