@@ -218,3 +218,7 @@ end
 get '/store' do
   redirect settings.store_url, 302
 end
+
+get '/thesaucepot' do
+  redirect 'http://saucepotstudios.com/', 301
+end
