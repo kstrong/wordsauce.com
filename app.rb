@@ -175,6 +175,12 @@ tours = [
       { date: '8/4/2017', location: 'Santa Maria, CA', venue: 'Ca\' Del Grevino', links: ['https://grevino.com/'] },
       { date: '8/23/2017',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/events/7611695/wordsauce-canto/'] },
     ]
+  },
+  {
+    name: 'Fall 2017',
+    dates: [
+      { date: '10/28/2017', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/699866660209372/'] },
+    ]
   }
 ]
 
