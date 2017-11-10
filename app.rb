@@ -180,8 +180,10 @@ tours = [
     name: 'Fall 2017',
     dates: [
       { date: '10/28/2017', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/699866660209372/'] },
+      { date: '11/24/2017', location: 'Ojai, CA', venue: 'The Deer Lodge', links: ['https://www.facebook.com/events/810020579122840/'] },
+      { date: '12/14/2017', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['http://www.bigbigslo.com/locals-night'] },
     ]
-  }
+  },
 ]
 
 get '/' do
