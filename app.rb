@@ -184,6 +184,12 @@ tours = [
       { date: '12/14/2017', location: 'San Luis Obispo, CA', venue: 'Fremont Theatre', links: ['http://www.bigbigslo.com/locals-night'] },
     ]
   },
+  {
+    name: 'Winter 2018',
+    dates: [
+      { date: '1/19/2018', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/121552648455127/'] },
+    ]
+  },
 ]
 
 get '/' do
