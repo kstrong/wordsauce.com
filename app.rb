@@ -187,8 +187,8 @@ tours = [
   {
     name: 'Winter 2018',
     dates: [
-      { date: '1/19/2018', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/121552648455127/'] },
-      { date: '2/12/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.facebook.com/events/1598311630251041'] },
+      { date: '1/19/2018', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.facebook.com/events/1930012330659872/'] },
+      { date: '2/12/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.facebook.com/events/1598311630251041/'] },
     ]
   },
 ]
