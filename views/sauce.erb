@@ -1,6 +1,4 @@
-
-  <%
-
+<%
   def panel(name)
     erb :"frontpage_panels/#{name}"
   end
@@ -15,8 +13,7 @@
     'salsa de palabra',
     'ponte tus zapatos de baile'
   ]
-  %>
-
+%>
   <div class="row hero-image">
     <div class="large-12 columns">
       <img src="/images/hero_fremont_17.jpg" alt="New album The Flow now available on itunes spotify bandcamp">
@@ -26,20 +23,16 @@
   <div class="row" data-equalizer>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
       <div class="panel">
-        <%= panel "maybeI_sierra" %>
+        <%= panel :maybeI_sierra %>
       </div>
       <div class="panel">
-        <%= panel "rollin" %>
+        <%= panel :rollin %>
       </div>
       <div class="panel">
-        <h3>&ldquo;After Hours&rdquo; - Wordsauce</h3>
-        <p>The 2nd single off our debut album &ldquo;The Flow&rdquo;, out July 18th!</p>
-        <div class="flex-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/CrHRdGHyBvc" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <%= panel :afterhours %>
       </div>
       <div class="panel">
-        <%= panel "wenow_new" %>
+        <%= panel :wenow_new %>
       </div>
     </div>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
@@ -47,7 +40,7 @@
         <%= erb :upcoming_shows %>
       </div>
       <div class="panel">
-        <%= panel "listento_theflow" %>
+        <%= panel :listento_theflow %>
       </div>
     </div>
   </div>
