@@ -1,5 +1,11 @@
 
-  <% captions = [
+  <%
+
+  def panel(name)
+    erb :"frontpage_panels/#{name}"
+  end
+
+  captions = [
     'Multi-Dimensional.',
     'The sauce is the boss',
     'Cross-Contaminated',
@@ -20,22 +26,10 @@
   <div class="row" data-equalizer>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
       <div class="panel">
-        <h3>Locals night at the Fremont!</h3>
-        <p>
-          Dec 14th at the <a href="https://fremontslo.com/">Fremont Theater</a> will be a big one! A limited number of free tickets are available, go to <a href="http://www.bigbigslo.com/locals-night">bigbigslo.com</a> to claim yours!! Let's take this Central Coast music scene to the next level!!
-        </p>
-        <a href="http://www.bigbigslo.com/locals-night" target="_blank">
-          <img width="560" height="315" src="/images/fremont_flyer_12_14.jpg">
-        </a>
+        <%= panel "maybeI_sierra" %>
       </div>
       <div class="panel">
-        <h3>New Video - &ldquo;Rollin&rdquo;</h3>
-        <p>
-          The Official video for &ldquo;Rollin&rdquo;, shot and directed by Greg McKarus of New Kingdom Productions!
-        </p>
-        <div class="flex-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/N0V_XDhVles" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <%= panel "rollin" %>
       </div>
       <div class="panel">
         <h3>&ldquo;After Hours&rdquo; - Wordsauce</h3>
@@ -45,12 +39,7 @@
         </div>
       </div>
       <div class="panel">
-        <h3>New music video!</h3>
-        <p>We are pleased to announce the release of the first single and video off our upcoming album! Check it out and share it with your friends!</p>
-        <div class="flex-video">
-          <iframe width="560" height="315" src="//youtube.com/embed/eDVpTtmWwWQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <p>Recorded at Speak Studios <a href="http://www.speakstudioscoop.com/" target="_blank">http://www.speakstudioscoop.com/</a></p>
+        <%= panel "wenow_new" %>
       </div>
     </div>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
@@ -58,7 +47,7 @@
         <%= erb :upcoming_shows %>
       </div>
       <div class="panel">
-        <%= erb :listento_theflow %>
+        <%= panel "listento_theflow" %>
       </div>
     </div>
   </div>
