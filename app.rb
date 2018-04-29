@@ -202,7 +202,7 @@ tours = [
   {
     name: 'Summer 2018',
     dates: [
-      { date: '7/20/2018',  location: 'Quincy, CA', venue: 'High Sierra Music Festival', links: ['http://highsierramusic.com/'] },
+      { date: '7/8/2018',  location: 'Quincy, CA', venue: 'High Sierra Music Festival', links: ['http://highsierramusic.com/'] },
     ]
   }
 ]
