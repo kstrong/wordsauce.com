@@ -196,6 +196,13 @@ tours = [
     name: 'Spring 2018',
     dates: [
       { date: '4/20/2018',  location: 'Creston, CA', venue: 'Hoof Fest'},
+      { date: '5/6/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/events/8168705/con-brio-the-sextones-wordsauce/'] },
+    ]
+  },
+  {
+    name: 'Summer 2018',
+    dates: [
+      { date: '7/20/2018',  location: 'Quincy, CA', venue: 'High Sierra Music Festival', links: ['http://highsierramusic.com/'] },
     ]
   }
 ]
