@@ -197,6 +197,7 @@ tours = [
     dates: [
       { date: '4/20/2018',  location: 'Creston, CA', venue: 'Hoof Fest'},
       { date: '5/6/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/events/8168705/con-brio-the-sextones-wordsauce/'] },
+      { date: '6/7/2018', location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.ticketfly.com/purchase/event/1705410'] },
     ]
   },
   {
