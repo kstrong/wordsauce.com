@@ -203,7 +203,12 @@ tours = [
   {
     name: 'Summer 2018',
     dates: [
+      { date: '7/3/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/'] },
       { date: '7/8/2018',  location: 'Quincy, CA', venue: 'High Sierra Music Festival', links: ['http://highsierramusic.com/'] },
+      { date: '8/4/2018',  location: 'Whidbey Island, WA', venue: 'TBA' },
+      { date: '8/11/2018', location: 'Morro Bay, CA', venue: 'The Siren', links: ['http://www.ticketfly.com/event/1711681-wordsauce-album-release-party-morro-bay/'] },
+      { date: '9/22/2018',  location: 'Visalia, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-visalia/'] },
+      { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/'] },
     ]
   }
 ]
