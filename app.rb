@@ -208,7 +208,7 @@ tours = [
       { date: '8/4/2018',  location: 'Whidbey Island, WA', venue: 'TBA' },
       { date: '8/11/2018', location: 'Morro Bay, CA', venue: 'The Siren', links: ['http://www.ticketfly.com/event/1711681-wordsauce-album-release-party-morro-bay/'] },
       { date: '9/22/2018',  location: 'Visalia, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-visalia/'] },
-      { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/'] },
+      { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-paso-robles'] },
     ]
   }
 ]
