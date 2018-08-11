@@ -13,6 +13,17 @@
     'salsa de palabra',
     'ponte tus zapatos de baile'
   ]
+
+  content_panels = [
+    :juice_release,
+    :hotlive_single,
+    :she_dont_know,
+    :highsierra_win,
+    :maybeI_sierra,
+    :rollin,
+    :afterhours,
+    :wenow_new
+  ]
 %>
   <div class="row hero-image">
     <div class="large-12 columns">
@@ -24,34 +35,18 @@
 
   <div class="row" data-equalizer>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
+      <% content_panels.each do |panel_name| %>
       <div class="panel">
-        <%= panel :hotlive_single %>
+        <%= panel panel_name %>
       </div>
-      <div class="panel">
-        <%= panel :she_dont_know %>
-      </div>
-      <div class="panel">
-        <%= panel :highsierra_win %>
-      </div>
-      <div class="panel">
-        <%= panel :maybeI_sierra %>
-      </div>
-      <div class="panel">
-        <%= panel :rollin %>
-      </div>
-      <div class="panel">
-        <%= panel :afterhours %>
-      </div>
-      <div class="panel">
-        <%= panel :wenow_new %>
-      </div>
+      <% end %>
     </div>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
       <div class="panel">
         <%= erb :upcoming_shows %>
       </div>
       <div class="panel">
-        <%= panel :listento_theflow %>
+        <%= panel :listento_juice %>
       </div>
     </div>
   </div>
