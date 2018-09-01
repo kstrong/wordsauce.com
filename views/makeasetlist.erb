@@ -1,0 +1,56 @@
+<%
+  songs = [
+    "Virtual",
+    "Deepsauce",
+    "Hot Live",
+    "Warm Eyes",
+    "Here We Are",
+    "Hands of Time",
+    "Get Funky",
+    "Flight",
+    "Heart in Spades",
+    "Drift Away",
+    "Skillet",
+    "She Don't Know",
+    "The Right Space",
+    "For a Minute",
+    "Maybe I",
+    "Flavor (Intro) <small>prod. by Vangala</small>",
+    "La Costa <small>ft Kap K &amp; Samba Loca</small>",
+    "Move",
+    "After Hours",
+    "Don't Fight The Funk <small>(Putrid Beats interlude)</small>",
+    "We Now <small>co prod. by Vangala</small>",
+    "Rollin <small>ft Sean Collins</small>",
+    "Tri Tip",
+    "Vagabond <small>ft Lemoore co prod. by Deepsee</small>",
+    "DFTF Interlude <small>prod. by EMortal</small>",
+    "Funklore <small>ft June &amp; Vince Cimo</small>",
+    "Catalyst <small>ft Kap K</small>",
+    "Green Lights <small>ft June, Keegan Harshman, Grant Chase &amp; Daniel Cimo (Deepsee Interlude)</small>",
+    "Electricity <small>ft Daniel Cimo</small>",
+    "The Flow",
+    "Rhode to Chop City (Funklore Remix) <small>ft James Kaye &amp; Shawna Marie prod by Risko</small>",
+    "Seventh Letter",
+    "A Little Soul",
+    "New Day",
+    "Steppin' Time",
+  ]
+
+  num_songs = params[:num_songs] ? params[:num_songs].to_i : songs.count
+%>
+<div class="row">
+  <div class="large-12 columns">
+    <div class="panel">
+      <p>
+      <form method="GET" action="/setlist">
+        How Many <input type="text" name="num_songs" value="<%= num_songs %>">
+        <input type="submit">
+      </form>
+      </p>
+      <ol>
+        <li><%= songs[0..num_songs-1].shuffle.join "</li><br>\n<li>" %></li>
+      </ol>
+    </div>
+  </div>
+</div>
