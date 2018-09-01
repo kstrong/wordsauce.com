@@ -258,3 +258,9 @@ end
 get '/thesaucepot' do
   redirect 'http://saucepotstudios.com/', 301
 end
+
+#######
+
+get '/setlist' do
+  erb :makeasetlist
+end
