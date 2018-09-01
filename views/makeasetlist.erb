@@ -49,7 +49,7 @@
       </form>
       </p>
       <ol>
-        <li><%= songs[0..num_songs-1].shuffle.join "</li><br>\n<li>" %></li>
+        <li><%= songs.shuffle[0..num_songs-1].join "</li><br>\n<li>" %></li>
       </ol>
     </div>
   </div>
