@@ -37,14 +37,14 @@
     "Steppin' Time",
   ]
 
-  num_songs = params[:num_songs] ? params[:num_songs].to_i : songs.count
+  num_songs = params[:songs] ? params[:songs].to_i : songs.count
 %>
 <div class="row">
   <div class="large-12 columns">
     <div class="panel">
       <p>
       <form method="GET" action="/setlist">
-        How Many <input type="text" name="num_songs" value="<%= num_songs %>">
+        How Many <input type="text" name="songs" value="<%= num_songs %>">
         <input type="submit">
       </form>
       </p>
