@@ -215,6 +215,7 @@ tours = [
   {
     name: 'Fall 2018',
     dates: [
+      { date: '10/19/2018',  location: 'Pismo Beach, CA', venue: 'Pismo Beach Clam Festival / Pierfest', links: ['https://www.facebook.com/events/221811012018669/'] },
       { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-paso-robles'] },
     ]
   }
