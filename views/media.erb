@@ -78,6 +78,15 @@ media = {
     '28140_10151523170291838_150659333_n.jpg'
   ]
 }
+
+videos = [
+  'eDVpTtmWwWQ',
+  'uBwXVCqCP2Y',
+  'N0V_XDhVles',
+  'mLVeaEzJ4cE',
+  '0L17Tp6UORQ',
+  'Z66acNGWJBY'
+]
 %>
 
 <div class="row">
@@ -95,16 +104,13 @@ media = {
       <h3>Videos</h3>
       <hr>
       <div class="row">
+        <% videos.each do |youtube_id| %>
         <div class="large-6 columns">
           <div class="flex-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eDVpTtmWwWQ" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= youtube_id %>" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="large-6 columns">
-          <div class="flex-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uBwXVCqCP2Y" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
+        <% end %>
       </div>
     </div>
   </div>
