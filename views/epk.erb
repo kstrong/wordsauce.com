@@ -5,20 +5,20 @@
 
 <div class="row sauce-epk">
   <div class="large-12 columns panel">
-    <h1><span class="sauce-font epk-title">Wordsauce</span> <small>multi-dimensional cross-contaminated flows</small></h1>
+    <h1><span class="sauce-font epk-title">WORDSAUCE</span> <small><!-- multi-dimensional cross-contaminated -->flows</small></h1>
     <hr>
 
     <div class="row">
       <div class="large-8 columns">
         <p>
-          What exactly is Wordsauce? Well, the funky, soulful hiphop instrumentation is the sauce.
-          Mix that with intensely rhythmic lyrical form, delivered by emcee Risko, and you've got Wordsauce.
-          As an 8 piece band, Wordsauce has been pushing the boundaries of live hiphop music since 2009.
-          They are an eclectic group of guys, just as fun to watch on stage as
-          they are hanging out in their shortbus that they tour the country on.
-          They bring an insane amount of energy to their live performance, with
-          live horns, auxiliary percussion, guest emcees
-          and a show that's guaranteed to make you a believer of the Sauce.
+          Wordsauce is live band Hip Hop with instrumentation rooted in Funk, mixed with a vocal style that balances intensely rhythmic lyrical form with catchy melodies.
+          Their first full-length album, <em>The&nbsp;Flow</em> (2015), exhibited the broad spectrum of influences contained within the eclectic group of seven.
+          Where forms of Rock influenced the direction of certain tunes on <em>The&nbsp;Flow</em>, the influences of Funk, RnB &amp; Soul have been refined and expanded on in their second album, <em>Juice</em>.
+          The result is a polished and effective body of work that translates very well to their live show.
+          Wordsauce has been pushing the boundaries of live Hip Hop music while delivering high-energy performances up and down the West Coast since 2009.
+          In recent years, they have broken into the festival circuit with appearances at High Sierra Music Festival, Live Oak Music Festival, Surf Rodeo, Big Surreal and more.
+          They have shared the stage with the likes of Jurrasic 5, Bone Thugz n Harmony, Del The Funky Homosapien, Freddie Gibbs, The Motet, Turkuaz, Soul Scratch, and many others.
+          With their new album <em>Juice</em>, Wordsauce has shown that their music is constantly evolving and that they’re determined to take their live show all over the world.
         </p>
       </div>
       <div class="large-4 columns">
@@ -45,7 +45,7 @@
     </script>
     <% end %>
 
-    <h3>Past Performances</h3>
+    <h3>Notable Performances</h3>
     <hr>
     <div class="row show-highlights">
       <div class="large-4 columns">
@@ -82,7 +82,7 @@
         <h4>Chico State Audio Engineering Society Fundraiser</h4>
         <p>
           <blockquote>
-            &ldquo;After intermission and refreshments, the venue was at its highest occupancy of the night as the crowd awaited to hear closing act WordSauce ... The musical collective was a diverse group of musicians that could only be described as a musical genre chimera of hip hop, funk and rock.&rdquo;
+            &ldquo;After intermission and refreshments, the venue was at its highest occupancy of the night as the crowd awaited to hear closing act Wordsauce ... The musical collective was a diverse group of musicians that could only be described as a musical genre chimera of hip hop, funk and rock.&rdquo;
           </blockquote>
           <a target="_blank" href="http://theorion.com/blog/2014/02/21/audio-engineering-society-raises-money-during-a-night-of-rockin-music/">Read More...</a>
         </p>
@@ -136,6 +136,22 @@
         <h3>Music</h3>
         <% playlists = { :liveinstudio_ep => 2513587, :theleak_ep => 41426186, :theflow => 131843297 } %>
         <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/<%= playlists[:theflow] %>&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>Videos</h3>
+        <hr>
+        <div class="row">
+          <% ['N0V_XDhVles', 'Z66acNGWJBY', '0L17Tp6UORQ'].each do |youtube_id| %>
+          <div class="large-6 columns">
+            <div class="flex-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/<%= youtube_id %>" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
