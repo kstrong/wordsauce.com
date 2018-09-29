@@ -1,45 +1,71 @@
 <%
-  songs = [
-    "Virtual",
-    "Deepsauce",
-    "Hot Live",
-    "Warm Eyes",
-    "Here We Are",
-    "Hands of Time",
-    "Get Funky",
-    "Flight",
-    "Heart in Spades",
-    "Drift Away",
-    "Skillet",
-    "She Don't Know",
-    "The Right Space",
-    "For a Minute",
-    "Maybe I",
-    "Flavor (Intro) <small>prod. by Vangala</small>",
-    "La Costa <small>ft Kap K &amp; Samba Loca</small>",
-    "Move",
-    "After Hours",
-    "Don't Fight The Funk <small>(Putrid Beats interlude)</small>",
-    "We Now <small>co prod. by Vangala</small>",
-    "Rollin <small>ft Sean Collins</small>",
-    "Tri Tip",
-    "Vagabond <small>ft Lemoore co prod. by Deepsee</small>",
-    "DFTF Interlude <small>prod. by EMortal</small>",
-    "Funklore <small>ft June &amp; Vince Cimo</small>",
-    "Catalyst <small>ft Kap K</small>",
-    "Green Lights <small>ft June, Keegan Harshman, Grant Chase &amp; Daniel Cimo (Deepsee Interlude)</small>",
-    "Electricity <small>ft Daniel Cimo</small>",
-    "The Flow",
-    "Rhode to Chop City (Funklore Remix) <small>ft James Kaye &amp; Shawna Marie prod by Risko</small>",
-    "Seventh Letter",
-    "A Little Soul",
-    "New Day",
-    "Steppin' Time",
-  ]
+  masterlist = {
+    "Juice" => [
+      "Virtual",
+      "Deepsauce",
+      "Hot Live",
+      "Warm Eyes",
+      "Here We Are",
+      "Hands of Time",
+      "Get Funky",
+      "Flight",
+      "Heart in Spades",
+      "Drift Away",
+      "Skillet",
+      "She Don't Know",
+      "The Right Space",
+      "For a Minute",
+      "Maybe I",
+    ],
+    "The Flow" => [
+      "Flavor (Intro) <small>prod. by Vangala</small>",
+      "La Costa <small>ft Kap K &amp; Samba Loca</small>",
+      "Move",
+      "After Hours",
+      "Don't Fight The Funk <small>(Putrid Beats interlude)</small>",
+      "We Now <small>co prod. by Vangala</small>",
+      "Rollin <small>ft Sean Collins</small>",
+      "Tri Tip",
+      "Vagabond <small>ft Lemoore co prod. by Deepsee</small>",
+      "DFTF Interlude <small>prod. by EMortal</small>",
+      "Funklore <small>ft June &amp; Vince Cimo</small>",
+      "Catalyst <small>ft Kap K</small>",
+      "Green Lights <small>ft June, Keegan Harshman, Grant Chase &amp; Daniel Cimo (Deepsee Interlude)</small>",
+      "Electricity <small>ft Daniel Cimo</small>",
+      "The Flow",
+      "Rhode to Chop City (Funklore Remix) <small>ft James Kaye &amp; Shawna Marie prod by Risko</small>",
+    ],
+    "The Leak" => [
+      "Clusterfunk",
+      "Chuparosa <small>Ft. Lauren Lum</small>",
+      "West Coast Crunk <small>Ft. Kap K</small>",
+      "Out Of Phase <small>Ft. James Kaye</small>",
+      "I'll Be Around",
+    ],
+    "Live In The Studio EP" => [
+      "Seventh Letter",
+      "A Little Soul",
+      "New Day",
+      "Steppin' Time",
+    ]
+  }
+
+  if params.include? 'include_release'
+    songs = masterlist.select { |key, _| params['include_release'].include? key }.values.flatten
+  else
+    songs = masterlist.values.flatten
+  end
 
   num_songs = params[:songs] ? params[:songs].to_i : songs.count
 %>
-<div class="row">
+
+<style type="text/css">
+.setlistmaker label {
+  font-weight: bold; color: #222; font-size: 0.9rem;
+}
+</style>
+
+<div class="row setlistmaker">
   <div class="large-12 columns">
     <div class="panel">
       <form method="GET" action="/setlist">
@@ -47,12 +73,26 @@
           <div class="small-8">
             <div class="row">
               <div class="small-3 columns">
-                <label for="num_songs" style="font-weight: bold; color: #222; font-size: 0.9rem;">How Many Songs?</label>
+                <label for="num_songs">How Many Songs?</label>
               </div>
               <div class="small-9 columns">
                 <input type="text" name="songs" id="num_songs" value="<%= num_songs %>">
               </div>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>Include songs from</label>
+            <% masterlist.keys.each do |groupname|
+              if params.include? 'include_release'
+                checked = params['include_release'].include?(groupname) ? ' checked' : ''
+              else
+                checked = ' checked'
+              end
+            %>
+            <input id="include_<%= groupname %>" type="checkbox" value="<%= groupname %>" name="include_release[]"<%= checked %>><label for="include_<%= groupname %>"><%= groupname %></label>
+            <% end %>
           </div>
         </div>
         <div class="row" style="margin-top: 8px;">
