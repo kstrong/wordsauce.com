@@ -42,15 +42,35 @@
 <div class="row">
   <div class="large-12 columns">
     <div class="panel">
-      <p>
       <form method="GET" action="/setlist">
-        How Many <input type="text" name="songs" value="<%= num_songs %>">
-        <input type="submit">
+        <div class="row">
+          <div class="small-8">
+            <div class="row">
+              <div class="small-3 columns">
+                <label for="num_songs" style="font-weight: bold; color: #222; font-size: 0.9rem;">How Many Songs?</label>
+              </div>
+              <div class="small-9 columns">
+                <input type="text" name="songs" id="num_songs" value="<%= num_songs %>">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 8px;">
+          <div class="small-8">
+            <button type="submit">Make Setlist</button>
+          </div>
+        </div>
       </form>
-      </p>
-      <ol>
-        <li><%= songs.shuffle[0..num_songs-1].join "</li><br>\n<li>" %></li>
-      </ol>
+
+      <hr>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <ol>
+            <li><%= songs.shuffle[0..num_songs-1].join "</li><br>\n<li>" %></li>
+          </ol>
+        </div>
+      </div>
     </div>
   </div>
 </div>
