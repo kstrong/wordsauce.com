@@ -100,12 +100,6 @@
   num_songs = params[:songs] ? params[:songs].to_i : songs.count
 %>
 
-<style type="text/css">
-.setlistmaker label {
-  font-weight: bold; color: #222; font-size: 0.9rem;
-}
-</style>
-
 <div class="row setlistmaker">
   <div class="large-12 columns">
     <div class="panel">
@@ -136,7 +130,7 @@
             <% end %>
           </div>
         </div>
-        <div class="row" style="margin-top: 16px;">
+        <div class="row submit-row">
           <div class="small-8">
             <button type="submit">Make Setlist</button>
           </div>

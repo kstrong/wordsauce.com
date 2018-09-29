@@ -21693,3 +21693,14 @@ li {
 .sauce-epk .show-highlights {
   margin-bottom: 20px;
 }
+
+/* line 200, ../../scss/app.scss */
+.setlistmaker label {
+  color: #A0B6B0;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+/* line 206, ../../scss/app.scss */
+.setlistmaker .submit-row {
+  margin-top: 16px;
+}
