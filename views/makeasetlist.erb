@@ -18,7 +18,7 @@
       "Maybe I",
     ],
     "The Flow" => [
-      "Flavor (Intro) <small>prod. by Vangala</small>",
+      #"Flavor (Intro) <small>prod. by Vangala</small>",
       "La Costa <small>ft Kap K &amp; Samba Loca</small>",
       "Move",
       "After Hours",
@@ -27,13 +27,13 @@
       "Rollin <small>ft Sean Collins</small>",
       "Tri Tip",
       "Vagabond <small>ft Lemoore co prod. by Deepsee</small>",
-      "DFTF Interlude <small>prod. by EMortal</small>",
+      #"DFTF Interlude <small>prod. by EMortal</small>",
       "Funklore <small>ft June &amp; Vince Cimo</small>",
       "Catalyst <small>ft Kap K</small>",
       "Green Lights <small>ft June, Keegan Harshman, Grant Chase &amp; Daniel Cimo (Deepsee Interlude)</small>",
       "Electricity <small>ft Daniel Cimo</small>",
       "The Flow",
-      "Rhode to Chop City (Funklore Remix) <small>ft James Kaye &amp; Shawna Marie prod by Risko</small>",
+      #"Rhode to Chop City (Funklore Remix) <small>ft James Kaye &amp; Shawna Marie prod by Risko</small>",
     ],
     "The Leak" => [
       "Clusterfunk",
@@ -47,7 +47,48 @@
       "A Little Soul",
       "New Day",
       "Steppin' Time",
-    ]
+    ],
+    "Unreleased" => [
+      "Big Skies Silent Valleys",
+      "LBT",
+      "Fiber",
+      "Liberate",
+      "Modelo",
+      "Never Fades",
+      "Bewildered",
+      "Pacifico",
+      "All On My Mind",
+      "Fire's Lit (Sam’s New Jam A)",
+      "Sam's New Groove",
+    ],
+    "Oldies" => [
+      "Vacation",
+      "Gotta Keep Goin",
+      "Respiration",
+      "Bring The Funk",
+      "Smooth Sailing",
+      "Flashlight",
+      "Reggae 2",
+      "Mind’s Eye",
+      "Rainy Day",
+      "Smooth While Raw",
+      "Still On It",
+      "Lets Ride",
+    ],
+    "Covers / Mixtape" => [
+      "What A Job",
+      "Still Dre",
+      "Break Ya Neck",
+      "Feel Good Inc",
+      "Get Down",
+      "So Fresh So Clean",
+      "Aye Yo",
+      "Spottie",
+      "They Reminisce",
+      "Forgot to be Your Lover - Worst Comes To Worst",
+      "Foosteps in the Dark- Today Was a Good Day",
+      "The Crunge",
+    ],
   }
 
   if params.include? 'include_release'
@@ -72,11 +113,11 @@
         <div class="row">
           <div class="small-8">
             <div class="row">
-              <div class="small-3 columns">
+              <div class="small-6 columns">
                 <label for="num_songs">How Many Songs?</label>
               </div>
-              <div class="small-9 columns">
-                <input type="text" name="songs" id="num_songs" value="<%= num_songs %>">
+              <div class="small-6 columns">
+                <input type="number" pattern="\d*" name="songs" id="num_songs" value="<%= num_songs %>">
               </div>
             </div>
           </div>
@@ -91,11 +132,11 @@
                 checked = ' checked'
               end
             %>
-            <input id="include_<%= groupname %>" type="checkbox" value="<%= groupname %>" name="include_release[]"<%= checked %>><label for="include_<%= groupname %>"><%= groupname %></label>
+            <input id="include_<%= groupname %>" type="checkbox" value="<%= groupname %>" name="include_release[]"<%= checked %>><label for="include_<%= groupname %>"><%= groupname %><span style="padding-left: 16px;">|</span></label>
             <% end %>
           </div>
         </div>
-        <div class="row" style="margin-top: 8px;">
+        <div class="row" style="margin-top: 16px;">
           <div class="small-8">
             <button type="submit">Make Setlist</button>
           </div>
