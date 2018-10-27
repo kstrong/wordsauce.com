@@ -215,9 +215,9 @@ tours = [
   {
     name: 'Fall 2018',
     dates: [
-      { date: '10/6/2018',  location: 'Oxnard, CA', venue: 'Stones Making Strides' },
       { date: '10/20/2018',  location: 'Pismo Beach, CA', venue: 'Pismo Beach Clam Festival / Pierfest', links: ['https://www.facebook.com/events/221811012018669/'] },
       { date: '10/20/2018',  location: 'Ojai, CA', venue: 'Ojai Day', links: ['https://www.facebook.com/ojaidayprofile'] },
+      { date: '11/3/2018',  location: 'Arroyo Grande, CA', venue: 'Nightlife Savings', links: ['https://subsessions.ticketleap.com/nightlife-savings/'] },
       { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-paso-robles'] },
     ]
   }
