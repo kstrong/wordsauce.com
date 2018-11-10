@@ -1,15 +1,4 @@
 
-<%
-def soundcloud_player(playlist = :theflow)
-  playlist_ids = { :liveinstudio_ep => 2513587, :theleak_ep => 41426186, :theflow => 131843297 }
-  '<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/' + playlist_ids[playlist].to_s + '&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>'
-end
-
-def spotify_player()
-  '<iframe src="https://open.spotify.com/embed?uri=spotify:album:0FfEu1jmKOqN4pB868FZgN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>'
-end
-%>
-
 <% content_for :stylesheets do %>
 <link rel="stylesheet" href="/stylesheets/webicons.css" type="text/css">
 <% end %>
@@ -33,16 +22,16 @@ end
         </p>
       </div>
       <div class="large-4 columns">
-        <a class="th" href="/images/fb_photos/1292817_10152407503911838_8711870499142886256_o.jpg"><img src="/images/fb_photos/1292817_10152407503911838_8711870499142886256_o.jpg"></a>
+        <a class="th" target="_blank" href="/images/fb_photos/1292817_10152407503911838_8711870499142886256_o.jpg"><img src="/images/fb_photos/1292817_10152407503911838_8711870499142886256_o.jpg"></a>
       </div>
     </div>
 
     <div class="row photo-row">
-      <div class="large-5 columns">
-        <a class="th" href="/images/fb_photos/12788081_10156621338675501_1102947845_n.jpg"><img src="/images/fb_photos/12788081_10156621338675501_1102947845_n.jpg"></a>
+      <div class="large-6 columns">
+        <a class="th" target="_blank" href="/images/epk/_XAN8472-2.jpg"><img src="/images/epk/_XAN8472-2-thumb.jpg"></a>
       </div>
-      <div class="large-7 columns">
-        <a class="th" href="/images/fb_photos/12810420_10156621338705501_39740845_o.jpg"><img src="/images/fb_photos/12810420_10156621338705501_39740845_o.jpg"></a>
+      <div class="large-6 columns">
+        <a class="th" target="_blank" href="/images/fb_photos/12810420_10156621338705501_39740845_o.jpg"><img src="/images/fb_photos/12810420_10156621338705501_39740845_o.jpg"></a>
       </div>
     </div>
     <% content_for :scripts do %>
