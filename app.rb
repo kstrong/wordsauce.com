@@ -231,6 +231,7 @@ tours = [
       { date: '10/20/2018',  location: 'Ojai, CA', venue: 'Ojai Day', links: ['https://www.facebook.com/ojaidayprofile'] },
       { date: '11/3/2018',  location: 'Arroyo Grande, CA', venue: 'Nightlife Savings', links: ['https://subsessions.ticketleap.com/nightlife-savings/'] },
       { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-paso-robles'] },
+      { date: '12/8/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/events/8929325/the-funk-before-christmas-with-wordsauce/'] },
     ]
   }
 ]
