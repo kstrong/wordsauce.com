@@ -233,6 +233,27 @@ tours = [
       { date: '11/10/2018',  location: 'Paso Robles, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-paso-robles'] },
       { date: '12/8/2018',  location: 'San Luis Obispo, CA', venue: 'SLO Brew', links: ['https://www.slobrew.com/events/8929325/the-funk-before-christmas-with-wordsauce/'] },
     ]
+  },
+  {
+    name: 'Winter 2019',
+    dates: [
+      { date: '1/19/2019',  location: 'Ojai, CA', venue: 'The Deer Lodge', links: ['https://www.facebook.com/events/1969561266683488'] },
+    ]
+  },
+  {
+    name: 'The Juice Is Loose Tour 2019',
+    dates: [
+      { date: '2/13/2019',  location: 'San Francisco, CA', venue: 'Boom Boom Room', links: [] },
+      { date: '2/15/2019',  location: 'Santa Cruz, CA', venue: 'Blue Lagoon', links: [] },
+      { date: '2/16/2019',  location: 'Chico, CA', venue: 'Lost On Main', links: [] },
+      { date: '2/18/2019',  location: 'Redding, CA', venue: 'The Dip', links: [] },
+      { date: '2/21/2019',  location: 'Bend, OR', venue: 'The Capitol', links: [] },
+      { date: '2/22/2019',  location: 'Boise, ID', venue: 'Reef Lounge', links: [] },
+      { date: '2/23/2019',  location: 'Ashland, OR', venue: 'Oberons', links: [] },
+      { date: '2/27/2019',  location: 'Portland, OR', venue: 'The Good Foot', links: [] },
+      { date: '2/28/2019',  location: 'Olympia, WA', venue: 'Rhythm &amp; Rye', links: [] },
+      { date: '3/1/2019',   location: 'Seattle, WA', venue: 'Skylark', links: [] },
+    ]
   }
 ]
 
