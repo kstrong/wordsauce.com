@@ -248,7 +248,6 @@ tours = [
       { date: '2/16/2019',  location: 'Chico, CA', venue: 'Lost On Main', links: [] },
       { date: '2/18/2019',  location: 'Redding, CA', venue: 'The Dip', links: [] },
       { date: '2/21/2019',  location: 'Bend, OR', venue: 'The Capitol', links: [] },
-      { date: '2/22/2019',  location: 'Boise, ID', venue: 'Reef Lounge', links: [] },
       { date: '2/23/2019',  location: 'Ashland, OR', venue: 'Oberons', links: [] },
       { date: '2/27/2019',  location: 'Portland, OR', venue: 'The Good Foot', links: [] },
       { date: '2/28/2019',  location: 'Olympia, WA', venue: 'Rhythm &amp; Rye', links: [] },
