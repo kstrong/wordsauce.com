@@ -243,15 +243,15 @@ tours = [
   {
     name: 'The Juice Is Loose Tour 2019',
     dates: [
-      { date: '2/13/2019',  location: 'San Francisco, CA', venue: 'Boom Boom Room', links: [] },
-      { date: '2/15/2019',  location: 'Santa Cruz, CA', venue: 'Blue Lagoon', links: [] },
-      { date: '2/16/2019',  location: 'Chico, CA', venue: 'Lost On Main', links: [] },
-      { date: '2/18/2019',  location: 'Redding, CA', venue: 'The Dip', links: [] },
-      { date: '2/21/2019',  location: 'Bend, OR', venue: 'The Capitol', links: [] },
-      { date: '2/23/2019',  location: 'Ashland, OR', venue: 'Oberons', links: [] },
-      { date: '2/27/2019',  location: 'Portland, OR', venue: 'The Good Foot', links: [] },
-      { date: '2/28/2019',  location: 'Olympia, WA', venue: 'Rhythm &amp; Rye', links: [] },
-      { date: '3/1/2019',   location: 'Seattle, WA', venue: 'Skylark', links: [] },
+      { date: '2/13/2019',  location: 'San Francisco, CA', venue: 'Boom Boom Room', links: ['https://www.facebook.com/events/138064590452603'] },
+      { date: '2/15/2019',  location: 'Santa Cruz, CA', venue: 'Blue Lagoon', links: ['https://www.facebook.com/events/2045856062161088'] },
+      { date: '2/16/2019',  location: 'Chico, CA', venue: 'Lost On Main', links: ['https://www.facebook.com/events/1066523770187244'] },
+      { date: '2/18/2019',  location: 'Redding, CA', venue: 'The Dip', links: ['https://www.facebook.com/events/332996127300454'] },
+      { date: '2/21/2019',  location: 'Bend, OR', venue: 'The Capitol', links: ['https://www.facebook.com/events/539076223279316'] },
+      { date: '2/23/2019',  location: 'Ashland, OR', venue: 'Oberon\'s', links: ['https://www.facebook.com/events/225908414963480'] },
+      { date: '2/27/2019',  location: 'Portland, OR', venue: 'The Goodfoot', links: ['https://www.facebook.com/events/616937298747935'] },
+      { date: '2/28/2019',  location: 'Olympia, WA', venue: 'Rhythm &amp; Rye', links: ['https://www.facebook.com/events/342292043271713'] },
+      { date: '3/1/2019',   location: 'Seattle, WA', venue: 'Skylark', links: ['https://www.facebook.com/events/273234833366096'] },
     ]
   }
 ]
