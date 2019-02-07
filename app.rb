@@ -243,6 +243,7 @@ tours = [
   {
     name: 'The Juice Is Loose Tour 2019',
     dates: [
+      { date: '2/12/2019',  location: 'San Luis Obispo, CA', venue: 'Mother\'s Tavern', links: ['https://www.facebook.com/events/1790455074394008'] },
       { date: '2/13/2019',  location: 'San Francisco, CA', venue: 'Boom Boom Room', links: ['https://www.facebook.com/events/229185374687360'] },
       { date: '2/14/2019',  location: 'Half Moon Bay, CA', venue: 'Old Princeton Landing', links: ['https://www.facebook.com/events/564489160727736'] },
       { date: '2/15/2019',  location: 'Santa Cruz, CA', venue: 'Blue Lagoon', links: ['https://www.facebook.com/events/2045856062161088'] },
