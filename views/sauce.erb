@@ -23,13 +23,16 @@
 
   <div class="row" data-equalizer>
     <div class="large-6 medium-6 columns" data-equalizer-watch>
+      <div class="panel show-for-small-only">
+        <%= erb :upcoming_shows %>
+      </div>
       <% content_panels.each do |panel_name| %>
       <div class="panel">
         <%= panel panel_name %>
       </div>
       <% end %>
     </div>
-    <div class="large-6 medium-6 columns" data-equalizer-watch>
+    <div class="large-6 medium-6 columns show-for-medium-up" data-equalizer-watch>
       <div class="panel">
         <%= erb :upcoming_shows %>
       </div>
