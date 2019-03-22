@@ -255,7 +255,13 @@ tours = [
       { date: '2/28/2019',  location: 'Olympia, WA', venue: 'Rhythm &amp; Rye', links: ['https://www.facebook.com/events/342292043271713'] },
       { date: '3/1/2019',   location: 'Seattle, WA', venue: 'Skylark', links: ['https://www.facebook.com/events/273234833366096'] },
     ]
-  }
+  },
+  {
+    name: 'Spring 2019',
+    dates: [
+      { date: '3/24/2019',  location: 'San Luis Obispo, CA', venue: 'Music Con Afterparty @ SLO Brew Rock', links: ['https://www.bigbigslo.com/music-con'] },
+    ]
+  },
 ]
 
 get '/' do
