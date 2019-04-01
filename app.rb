@@ -260,6 +260,7 @@ tours = [
     name: 'Spring 2019',
     dates: [
       { date: '3/24/2019',  location: 'San Luis Obispo, CA', venue: 'Music Con Afterparty @ SLO Brew Rock', links: ['https://www.bigbigslo.com/music-con'] },
+      { date: '5/31/2019',  location: 'Visalia, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-visalia/'] },
     ]
   },
 ]
