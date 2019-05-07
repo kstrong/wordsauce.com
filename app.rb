@@ -260,7 +260,16 @@ tours = [
     name: 'Spring 2019',
     dates: [
       { date: '3/24/2019',  location: 'San Luis Obispo, CA', venue: 'Music Con Afterparty @ SLO Brew Rock', links: ['https://www.bigbigslo.com/music-con'] },
+      { date: '5/20/2019',  location: 'San Luis Obispo, CA', venue: 'Cal Poly' },
       { date: '5/31/2019',  location: 'Visalia, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-visalia/'] },
+      { date: '6/1/2019',   location: 'Templeton, CA', venue: 'Hoof Fest' },
+    ]
+  },
+  {
+    name: 'Summer 2019',
+    dates: [
+      { date: '6/27/2019',  location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.ticketfly.com/event/1841262-wordsauce-high-pulp-morro-bay/'] },
+      { date: '6/29/2019',  location: 'Santa Barbara, CA', venue: 'Stoke the World Gathering', links: ['http://stoketheworld.org/'] },
     ]
   },
 ]
