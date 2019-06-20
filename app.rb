@@ -270,6 +270,7 @@ tours = [
     dates: [
       { date: '6/27/2019',  location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.ticketfly.com/event/1841262-wordsauce-high-pulp-morro-bay/'] },
       { date: '6/29/2019',  location: 'Santa Barbara, CA', venue: 'Stoke the World Gathering', links: ['http://stoketheworld.org/'] },
+      { date: '7/7/2019', location: 'Pismo Beach, CA', venue: 'The Cliffs Hotel', links: ['https://www.facebook.com/events/2081918118604408/'] },
       { date: '7/14/2019', location: 'Ventura, CA', venue: 'Surf Rodeo', links: ['http://surfrodeo.org'] },
     ]
   },
