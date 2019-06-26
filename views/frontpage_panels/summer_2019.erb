@@ -1,0 +1,22 @@
+<%
+  gigs = [
+    ["wordsauce_highpulp_siren.jpg", ""],
+    ["stoketheworld.jpg", "https://stoketheworld.org/lineup/"],
+    ["surfrodeo_2019.jpg", "https://www.surfrodeo.org/"]
+  ]
+
+  nextgig = if Date.parse("2019-06-27") >= Date.today then
+              0
+            elsif Date.parse("2019-06-30") >= Date.today then
+              1
+            else
+              2
+            end
+
+
+  flyer = gigs[nextgig][0]
+  showlink = gigs[nextgig][1]
+%>
+<p>
+  <a href="<%= showlink %>" target="_blank"><img src="/images/summer_2019/<%= flyer %>"></a>
+</p>
