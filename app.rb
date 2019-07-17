@@ -273,6 +273,8 @@ tours = [
       { date: '7/7/2019', location: 'Pismo Beach, CA', venue: 'The Cliffs Hotel', links: ['https://www.facebook.com/events/2081918118604408/'] },
       { date: '7/14/2019', location: 'Ventura, CA', venue: 'Surf Rodeo', links: ['http://surfrodeo.org'] },
       { date: '8/3/2019',  location: 'Visalia, CA', venue: 'Barrelhouse Brewing Co.', links: ['https://www.barrelhousebrewing.com/locations-visalia/'] },
+      { date: '8/4/2019',  location: 'Morro Bay, CA', venue: 'The Siren', links: ['https://www.ticketfly.com/event/1853692-devin-dude-morro-bay/'] },
+      { date: '8/10/2019',  location: 'Santa Maria, CA', venue: 'Presqu\'ile Winery', links: ['https://www.presquilewine.com/'] },
     ]
   },
 ]
