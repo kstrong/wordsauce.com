@@ -3,7 +3,8 @@
     ["wordsauce_highpulp_siren.jpg", "https://thesirenmorrobay.com/event/wordsauce-feat-high-pulp/"],
     ["stoketheworld.jpg", "https://stoketheworld.org/lineup/"],
     ["surfrodeo_2019.jpg", "https://www.surfrodeo.org/"],
-    ["flyer_devinthedude_fb.jpg", "https://www.ticketfly.com/event/1853692-devin-dude-morro-bay/"]
+    ["flyer_devinthedude_fb.jpg", "https://www.ticketfly.com/event/1853692-devin-dude-morro-bay/"],
+    ["formoverfunction7.png", "https://my805tix.com/events/form-over-function-7/tickets"]
   ]
 
   nextgig = if Date.parse("2019-06-27") >= Date.today then
@@ -12,8 +13,10 @@
               1
             elsif Date.parse("2019-07-14") >= Date.today then
               2
-            else
+            elsif Date.parse("2019-08-04") >= Date.today then
               3
+            else
+              4
             end
 
 
