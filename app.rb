@@ -277,6 +277,12 @@ tours = [
       { date: '8/10/2019',  location: 'Santa Maria, CA', venue: 'Presqu\'ile Winery', links: ['https://www.presquilewine.com/'] },
     ]
   },
+  {
+    name: 'Fall 2019',
+    dates: [
+      { date: '10/27/2019',  location: 'Cayucos, CA', venue: 'Schooners', links: ['https://www.facebook.com/events/739909293124261/'] },
+    ]
+  }
 ]
 
 get '/' do
